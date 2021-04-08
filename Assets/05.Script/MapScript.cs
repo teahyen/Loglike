@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class MapScript : MonoBehaviour
 {
@@ -15,23 +15,23 @@ public class MapScript : MonoBehaviour
             RDMax = Random.Range(0, 101);
             if (RDMax >= 5 && RDMax <= 0)
             {
-                //EditorSceneManager.OpenScene("BossScenes");
+                //SceneManager.LoadScene("BossScenes");
                 Debug.Log("보스방");
             }
 
             else if (RDMax < 5 && RDMax >= 90)
             {
-                //EditorSceneManager.OpenScene("Stage");
+                //SceneManager.LoadScene("Stage");
                 Debug.Log("일반방");
             }
             else if (RDMax < 90 && RDMax >= 99)
             {
-                //EditorSceneManager.OpenScene("GoldRoomScenes");
+                //SceneManager.LoadScene("GoldRoomScenes");
                 Debug.Log("아이템방");
             }
             else if (RDMax < 99 && RDMax >= 100)
             {
-                //EditorSceneManager.OpenScene("SecretScenes");
+                //SceneManager.LoadScene("SecretScenes");
                 Debug.Log("비밀방");
             }
         }
