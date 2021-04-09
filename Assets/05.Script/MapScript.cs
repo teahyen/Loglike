@@ -10,7 +10,7 @@ public class MapScript : MonoBehaviour
     private int RDMax;
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject == Player)
+        if(col.tag == "Player")
         {
             RDMax = Random.Range(0, 101);
             if (RDMax >= 5 && RDMax <= 0)
@@ -18,7 +18,6 @@ public class MapScript : MonoBehaviour
                 //SceneManager.LoadScene("BossScenes");
                 Debug.Log("보스방");
             }
-
             else if (RDMax < 5 && RDMax >= 90)
             {
                 //SceneManager.LoadScene("Stage");
@@ -34,6 +33,7 @@ public class MapScript : MonoBehaviour
                 //SceneManager.LoadScene("SecretScenes");
                 Debug.Log("비밀방");
             }
+            Debug.Log(RDMax);
         }
     }
 }

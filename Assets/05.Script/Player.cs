@@ -4,36 +4,18 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float movePover = 1;
-    
-    void Start()
+    [SerializeField]
+    private float speed;
+    private void Update()
     {
-        
-    }
-    void Update()
-    {
-        Vector3 moveVelocity = Vector3.zero;
-
-        if (Input.GetAxisRaw("Horizontal") < 0)
+        if(Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
         {
-            moveVelocity = Vector3.left;
+            transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
+        }
+        if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Vertical") < 0)
+        {
+            transform.Translate(new Vector3(0f,Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
         }
 
-        else if (Input.GetAxisRaw("Horizontal") > 0)
-        {
-            moveVelocity = Vector3.right;
-        }
-        transform.position += moveVelocity * movePover * Time.deltaTime;
-
-
-        if (Input.GetAxisRaw("Vartical") < 0)
-        {
-            moveVelocity = Vector3.up;
-        }
-
-        else if (Input.GetAxisRaw("Vartical") > 0)
-        {
-            moveVelocity = Vector3.down;
-        }
     }
 }
