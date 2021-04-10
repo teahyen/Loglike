@@ -19,7 +19,7 @@ public class MapScript : MonoBehaviour
             {
                 Debug.Log("보스방");
             }
-            else if (RDMax < 99)
+            else if (RDMax > 99)
             {
                 Debug.Log("비밀방");
             }
