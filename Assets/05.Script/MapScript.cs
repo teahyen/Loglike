@@ -15,7 +15,7 @@ public class MapScript : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag == "Player")
+        if(col.tag == "Player" && GameManager.Instance.clear == true)
         {
             RDMax = Random.Range(0, 101);
             if (RDMax >0&& RDMax <5 &&BosRoomTime <=0)
@@ -35,6 +35,7 @@ public class MapScript : MonoBehaviour
             }
             Debug.Log(RDMax);
             BosRoomTime--;
+            GameManager.Instance.clear = false;
         }
     }
 }
