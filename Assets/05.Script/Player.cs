@@ -7,6 +7,9 @@ using UnityEngine.Animations;
 public class Player : MonoBehaviour
 {
     [SerializeField]
+    private Animator anim = null;
+
+    [SerializeField]
     private float speed;
 
     [SerializeField]
@@ -18,6 +21,7 @@ public class Player : MonoBehaviour
     public float atkSpeed = 1;
     public bool attacked = false;
     public Image nowKpbar;
+    public GameObject SwordEffect;
 
     [SerializeField]
     private GameObject Sword;
@@ -37,6 +41,7 @@ public class Player : MonoBehaviour
     }
     private void Start()
     {
+
         maxHp = 50;
         nowHp = 50;
         atkDmg = 10;
@@ -65,6 +70,7 @@ public class Player : MonoBehaviour
     IEnumerator atk()
     {
         Sword.SetActive(true);
+        anim.Play("SwordAnimation");
         atking = true;
         yield return new WaitForSeconds(0.5f);
         Sword.SetActive(false);
