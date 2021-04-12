@@ -41,10 +41,6 @@ public class Player : MonoBehaviour
     }
     private void Start()
     {
-
-        maxHp = 50;
-        nowHp = 50;
-        atkDmg = 10;
         Sword.SetActive(false);
 
         SetAttackSpeed(1.5f);
