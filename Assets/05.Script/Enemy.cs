@@ -45,6 +45,7 @@ public class Enemy : MonoBehaviour
         hpBar.position = _hpBarPos;
         nowHpbar.fillAmount = (float)nowHp / (float)maxHp;
     }
+
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Sword"))

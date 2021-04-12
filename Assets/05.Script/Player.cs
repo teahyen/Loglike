@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
     public float atkSpeed = 1;
     public bool attacked = false;
     public Image nowKpbar;
-    public GameObject SwordEffect;
 
     [SerializeField]
     private GameObject Sword;
