@@ -26,10 +26,14 @@ public class Player : MonoBehaviour
     private GameObject Sword;
     public bool atking = false;
 
-    [SerializeField]
-    private GameObject _camera;
-
-    public bool isAngle = true;
+    void AttackTrue()
+    {
+        attacked = true;
+    }
+    void AttackFalse()
+    {
+        attacked = false;
+    }
     void SetAttackSpeed(float speed)
     {
         atkSpeed = speed;
@@ -42,49 +46,21 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
-        //플레이어가 보는 방향
-        if (Input.GetKeyDown(KeyCode.F)&&isAngle)
-        {
-            gameObject.transform.rotation = (Quaternion.Euler(0, 180, 0));
-            isAngle = false;
-           
-        }
-        else if (Input.GetKeyDown(KeyCode.F) && !isAngle)
-        {
-            gameObject.transform.rotation = (Quaternion.Euler(0, 0, 0));
-            isAngle = true;
-        }
-        //근접 공격
-        if (Input.GetKeyDown(KeyCode.Space) && atking == false)
-        {
-            Debug.Log("뽈롱뽀륭");
-            StartCoroutine(atk());
-        }
-        //플레이어 이동 위/아래
         nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
-
+        if(Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
+        {
+            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
+        }
         if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Vertical") < 0)
         {
             player.transform.Translate(new Vector3(0f,Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
         }
-        //플레이어 반전시 이동
-        if (isAngle== true)
+        //근접 공격
+        if (Input.GetKeyDown(KeyCode.F) && atking == false)
         {
-            if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
-            {
-                player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
-            }
+            Debug.Log("뽈롱뽀륭");
+            StartCoroutine(atk());
         }
-        else if (isAngle == false)
-        {
-            if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
-            {
-                player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * -speed * Time.deltaTime, 0f, 0f));
-            }
-        }
-
-        //카메라 이동
-        _camera.transform.position = (new Vector3(transform.position.x, transform.position.y, -3));
     }
     IEnumerator atk()
     {
