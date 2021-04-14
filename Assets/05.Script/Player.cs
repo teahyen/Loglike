@@ -26,6 +26,8 @@ public class Player : MonoBehaviour
     private GameObject Sword;
     public bool atking = false;
 
+    public GameObject _camera;
+    public bool rotate;
     void AttackTrue()
     {
         attacked = true;
@@ -46,17 +48,41 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
+        _camera.transform.position = player.transform.position - new Vector3(0, 0, 3);
         nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
-        if(Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
+        if (Input.GetKeyDown(KeyCode.F)&&rotate)
         {
-            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
+            player.transform.Rotate(new Vector3(0,180,0));
+            Debug.Log("µ¹¾Æ°£µå¾Æ¤¿¤¿");
+            rotate = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.F)&&!rotate)
+        {
+            player.transform.Rotate(new Vector3(0,-180,0));
+            Debug.Log("´Ù½Ã µ¹¾Æ°£µå¾Æ¤¿");
+            rotate = true;
+        }
+        if(rotate == false)
+        {
+            if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
+            {
+                player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
+            }
+
+        }
+        else if(rotate == true)
+        {
+            if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
+            {
+                player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * -speed * Time.deltaTime, 0f, 0f));
+            }
         }
         if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Vertical") < 0)
         {
             player.transform.Translate(new Vector3(0f,Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
         }
         //±ÙÁ¢ °ø°Ý
-        if (Input.GetKeyDown(KeyCode.F) && atking == false)
+        if (Input.GetMouseButtonDown(0) && atking == false)
         {
             Debug.Log("»Ê·Õ»Ç¸¢");
             StartCoroutine(atk());
