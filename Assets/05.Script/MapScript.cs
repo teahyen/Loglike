@@ -6,6 +6,9 @@ public class MapScript : MonoBehaviour
 {
     [SerializeField]
     private GameObject Player;
+    [SerializeField]
+    [Header("시작 위치")]
+    private GameObject StartTaget;
     [SerializeField][Header("0 일반방, 1 보스방, 2 비밀방")]
     private List<GameObject> room = new List<GameObject>();
     private int RDMax;
@@ -22,9 +25,10 @@ public class MapScript : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D col)
     {
+
         if(col.tag == "Player" && GameManager.Instance.clear == true)
         {
-            
+
             RDMax = Random.Range(0, 101);
             if (RDMax >0&& RDMax <5 &&BosRoomTime <=0)
             {
