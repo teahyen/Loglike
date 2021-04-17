@@ -67,7 +67,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5458945019570689780}
   - component: {fileID: 5458945019570689781}
-  - component: {fileID: 5458945019570689782}
   - component: {fileID: 5458945019570689779}
   - component: {fileID: 5458945019570689783}
   m_Layer: 0
@@ -144,32 +143,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5458945019570689782
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5458945019570689544}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.08014417, y: -0.010456324}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 5}
-    newSize: {x: 5, y: 5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.4353805, y: 4.9790874}
-  m_EdgeRadius: 0
 --- !u!50 &5458945019570689779
 Rigidbody2D:
   serializedVersion: 4
@@ -216,6 +189,9 @@ MonoBehaviour:
   atking: 0
   _camera: {fileID: 0}
   rotate: 0
+  playerImg: {fileID: 0}
+  hitTime: 0
+  ishit: 0
 --- !u!1 &5458945020874242769
 GameObject:
   m_ObjectHideFlags: 0

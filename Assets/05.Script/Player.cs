@@ -26,16 +26,16 @@ public class Player : MonoBehaviour
     private GameObject Sword;
     public bool atking = false;
 
+
     public GameObject _camera;
     public bool rotate;
-    void AttackTrue()
-    {
-        attacked = true;
-    }
-    void AttackFalse()
-    {
-        attacked = false;
-    }
+    //피격 시 일어나는 함수들
+    [SerializeField]
+    private Image playerImg;
+    public int hitTime =3;
+    public bool ishit =false;
+    [Header("맞았을때 깜박이는 횟수")]
+    private int hitEffect;
     void SetAttackSpeed(float speed)
     {
         atkSpeed = speed;
@@ -88,6 +88,15 @@ public class Player : MonoBehaviour
             StartCoroutine(atk());
         }
     }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.tag == "Enemy")
+        {
+            //StartCoroutine(hit());
+            nowHp -= 10;
+            print("아파!");
+        }
+    }
     IEnumerator atk()
     {
         Sword.SetActive(true);
@@ -97,5 +106,8 @@ public class Player : MonoBehaviour
         Sword.SetActive(false);
         atking = false;
     }
-
+    //IEnumerator hit()
+    //{
+    //    yield return new WaitForSeconds(hitTime);
+    //}
 }
