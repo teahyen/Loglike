@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3993783040109015657}
   - component: {fileID: 3993783040109015656}
   - component: {fileID: 1264803294357739330}
+  - component: {fileID: -6655807877761345638}
   m_Layer: 0
   m_Name: E-WingDown
   m_TagString: Untagged
@@ -143,7 +144,21 @@ MonoBehaviour:
   nowHp: 100
   atkDmg: 10
   atkSpeed: 5
-  player: {fileID: 4710303324483964566, guid: 325c2cadd7600114f88852766a911c62, type: 3}
+  player: {fileID: 5458945019570689783, guid: 325c2cadd7600114f88852766a911c62, type: 3}
+--- !u!114 &-6655807877761345638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3993783040109015663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6cda88aa225fc4a8287d4dfde58de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  Player: {fileID: 5458945019570689544, guid: 325c2cadd7600114f88852766a911c62, type: 3}
 --- !u!1001 &1626679246215982857
 PrefabInstance:
   m_ObjectHideFlags: 0
