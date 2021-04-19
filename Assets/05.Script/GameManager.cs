@@ -19,7 +19,6 @@ public class GameManager : MonoBehaviour
                     instance = temp.AddComponent<GameManager>();
                 }
             }
-
             return instance;
         }
     }

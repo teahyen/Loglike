@@ -5,7 +5,6 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     public int speed = 10;
-    [SerializeField]
     private GameObject Player;
     private Vector3 playerpos = Vector3.zero;
     public Vector3 PlayerPos
@@ -24,11 +23,16 @@ public class EnemyMove : MonoBehaviour
             playerpos = value;
         }
     }
+    private void Start()
+    {
+        Player = GameObject.Find("Player");
+    }
     private void Update()
     {
         //가고 싶은곳
         PlayerPos = Player.transform.position;
         Vector3 dir = PlayerPos - transform.position;
+        dir.z =0;
         transform.position += dir.normalized * speed * Time.deltaTime;
     }
 }
