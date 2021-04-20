@@ -23,4 +23,11 @@ public class GameManager : MonoBehaviour
         }
     }
     public bool clear = false;
+    public int lastenemy;
+
+    private void Update()
+    {
+        if (lastenemy == 0)
+            clear = true;
+    }
 }

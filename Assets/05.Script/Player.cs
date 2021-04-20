@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         _camera.transform.position = player.transform.position - new Vector3(0, 0, 3);
+
         nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
         if (Input.GetKeyDown(KeyCode.F)&&rotate)
         {
@@ -90,7 +91,8 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag == "Enemy")
+
+        if (col.CompareTag("Enemy"))
         {
             //StartCoroutine(hit());
             nowHp -= 10;
@@ -105,6 +107,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         Sword.SetActive(false);
         atking = false;
+        nowHp += 20;
     }
     //IEnumerator hit()
     //{

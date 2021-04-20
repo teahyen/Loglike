@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapStart : MonoBehaviour
+public class StartMapStart : MonoBehaviour
 {
     [SerializeField]
     private GameObject Player;

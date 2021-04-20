@@ -57,6 +57,7 @@ public class Enemy : MonoBehaviour
             {
                 Destroy(gameObject);
                 Destroy(hpBar.gameObject);
+                GameManager.Instance.lastenemy--;
             }
         }
     }

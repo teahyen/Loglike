@@ -30,7 +30,7 @@ public class MapScript : MonoBehaviour
         {
 
             RDMax = Random.Range(0, 101);
-            if (RDMax >0&& RDMax <5 &&BosRoomTime <=0)
+            if (RDMax >0&& RDMax <20 &&BosRoomTime <=0)
             {
                 Debug.Log("º¸½º¹æ");
                 Player.transform.position =room[1].transform.position;
@@ -52,6 +52,7 @@ public class MapScript : MonoBehaviour
                     randomX = Random.Range(-4, 14);
                     ranomY = Random.Range(-16,1);
                     Instantiate(Enemy, new Vector3(randomX, ranomY, 0), Quaternion.identity);
+                    GameManager.Instance.lastenemy = countEnemy;
                 }
             }
             Debug.Log(RDMax);
