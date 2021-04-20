@@ -91,12 +91,9 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-
         if (col.CompareTag("Enemy"))
         {
-            //StartCoroutine(hit());
-            nowHp -= 10;
-            print("아파!");
+            StartCoroutine(hit());
         }
     }
     IEnumerator atk()
@@ -107,10 +104,11 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         Sword.SetActive(false);
         atking = false;
-        nowHp += 20;
     }
-    //IEnumerator hit()
-    //{
-    //    yield return new WaitForSeconds(hitTime);
-    //}
+    IEnumerator hit()
+    {
+        nowHp -= 10;
+        print("아파!");
+        yield return new WaitForSeconds(hitTime);
+    }
 }
