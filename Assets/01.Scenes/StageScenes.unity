@@ -15291,6 +15291,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1264803294357739330, guid: 948d730e31a4e844d98cc05419e769c8, type: 3}
+      propertyPath: maxHeal
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264803294357739330, guid: 948d730e31a4e844d98cc05419e769c8, type: 3}
+      propertyPath: objHeal
+      value: 
+      objectReference: {fileID: 6151270100507320811, guid: 23ed363d1443473498dde6d5c615ef57, type: 3}
     - target: {fileID: 3993783040109015659, guid: 948d730e31a4e844d98cc05419e769c8, type: 3}
       propertyPath: m_RootOrder
       value: 6

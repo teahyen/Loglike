@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
+    public int Heal;
+    public int maxHeal = 25;
+    public GameObject objHeal;
     public GameObject prfHpBar;
     public GameObject canvas;
 
@@ -58,6 +61,11 @@ public class Enemy : MonoBehaviour
                 Destroy(gameObject);
                 Destroy(hpBar.gameObject);
                 GameManager.Instance.lastenemy--;
+                Heal = Random.Range(1,maxHeal);
+                if (Heal < 10)
+                {
+                    Instantiate(objHeal, transform.position, Quaternion.identity);
+                }
             }
         }
     }

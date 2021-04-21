@@ -95,6 +95,12 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(hit());
         }
+        if (col.CompareTag("Heal"))
+        {
+            nowHp += 15;
+            print("Èú °³²Ü");
+            Destroy(col.gameObject,1);   
+        }
     }
     IEnumerator atk()
     {
