@@ -22,6 +22,10 @@ public class GameManager : MonoBehaviour
             return instance;
         }
     }
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     public bool clear = false;
     public int lastenemy;
 

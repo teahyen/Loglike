@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Animations;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -26,16 +27,12 @@ public class Player : MonoBehaviour
     private GameObject Sword;
     public bool atking = false;
 
-
-    public GameObject _camera;
     public bool rotate;
     //피격 시 일어나는 함수들
     [SerializeField]
     private Image playerImg;
     public int hitTime =3;
     public bool ishit =false;
-    [Header("맞았을때 깜박이는 횟수")]
-    private int hitEffect;
     void SetAttackSpeed(float speed)
     {
         atkSpeed = speed;
@@ -48,9 +45,8 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
-        _camera.transform.position = player.transform.position - new Vector3(0, 0, 3);
-
         nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
+        #region PlayerMove
         if (Input.GetKeyDown(KeyCode.F)&&rotate)
         {
             player.transform.Rotate(new Vector3(0,180,0));
@@ -82,6 +78,7 @@ public class Player : MonoBehaviour
         {
             player.transform.Translate(new Vector3(0f,Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
         }
+        #endregion
         //근접 공격
         if (Input.GetMouseButtonDown(0) && atking == false)
         {
@@ -95,13 +92,14 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(hit());
         }
-        if (col.CompareTag("Heal"))
+        if (col.CompareTag("Heal"))//&& Input.GetKey(KeyCode.E)
         {
             nowHp += 15;
             print("힐 개꿀");
             Destroy(col.gameObject,1);   
         }
     }
+    //공격할 경우
     IEnumerator atk()
     {
         Sword.SetActive(true);
@@ -111,10 +109,15 @@ public class Player : MonoBehaviour
         Sword.SetActive(false);
         atking = false;
     }
+    //적에게 맞았을 경우
     IEnumerator hit()
     {
         nowHp -= 10;
         print("아파!");
         yield return new WaitForSeconds(hitTime);
+        if(nowHp <= 10)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }

@@ -61,7 +61,8 @@ public class Enemy : MonoBehaviour
                 Destroy(gameObject);
                 Destroy(hpBar.gameObject);
                 GameManager.Instance.lastenemy--;
-                Heal = Random.Range(1,maxHeal);
+                //StartCoroutine(spawnHeal());
+                //»˙∆— º“»Ø
                 if (Heal < 10)
                 {
                     Instantiate(objHeal, transform.position, Quaternion.identity);
@@ -69,5 +70,12 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+    //IEnumerator spawnHeal()
+    //{
+    //    yield return new WaitForSeconds(0.5f);
+    //    Heal = Random.Range(1, maxHeal);
+
+
+    //}
 
 }

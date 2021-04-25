@@ -9,4 +9,8 @@ public class ScenceManager : MonoBehaviour
     {
         SceneManager.LoadScene("StageScenes");
     }
+    public void ReStart()
+    {
+        SceneManager.LoadScene("StartScenes");
+    }
 }

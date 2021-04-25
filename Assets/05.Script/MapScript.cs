@@ -6,9 +6,6 @@ public class MapScript : MonoBehaviour
 {
     [SerializeField]
     private GameObject Player;
-    [SerializeField]
-    [Header("시작 위치")]
-    private GameObject StartTaget;
     [SerializeField][Header("0 일반방, 1 보스방, 2 비밀방")]
     private List<GameObject> room = new List<GameObject>();
     private int RDMax;
