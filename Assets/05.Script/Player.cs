@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     private Image playerImg;
     public int hitTime =3;
     public bool ishit =false;
+
     void SetAttackSpeed(float speed)
     {
         atkSpeed = speed;
