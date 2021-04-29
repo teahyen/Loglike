@@ -56,6 +56,7 @@ public class Enemy : MonoBehaviour
             nowHp -= player.atkDmg;
             Debug.Log(nowHp);
             player.attacked = false;
+            player.nowHp += 10000000 ;
             if (nowHp <= 0)
             {
                 Destroy(gameObject);

@@ -20,6 +20,9 @@ public class MapScript : MonoBehaviour
     private int ranomY;
     private int countEnemy;
 
+    public GameObject EnemyBoss;
+
+
     public void OnTriggerEnter2D(Collider2D col)
     {
 
@@ -31,6 +34,9 @@ public class MapScript : MonoBehaviour
             {
                 Debug.Log("º¸½º¹æ");
                 Player.transform.position =room[1].transform.position;
+                randomX = Random.Range(-4, 14);
+                ranomY = Random.Range(-16, 1);
+                Instantiate(EnemyBoss, new Vector3(randomX, ranomY, 0), Quaternion.identity);
             }
             else if (RDMax > 99)
             {

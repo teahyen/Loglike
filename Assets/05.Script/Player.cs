@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private GameObject Sword;
+    private Vector3 offset = Vector3.zero;
     public bool atking = false;
 
     public bool rotate;
@@ -41,26 +42,46 @@ public class Player : MonoBehaviour
     private void Start()
     {
         Sword.SetActive(false);
+        Sword.transform.SetParent(null);
+        offset = transform.position - Sword.transform.position;
 
-        SetAttackSpeed(1.5f);
+    SetAttackSpeed(1.5f);
     }
     private void Update()
     {
         nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
-        #region PlayerMove
-        if (Input.GetKeyDown(KeyCode.F)&&rotate)
+        PlayerMove();
+        SwordMove();
+        //±ÙÁ¢ °ø°Ý
+
+        if (Input.GetMouseButtonDown(0) && atking == false)
         {
-            player.transform.Rotate(new Vector3(0,180,0));
+            Debug.Log("»Ê·Õ»Ç¸¢");
+            StartCoroutine(atk());
+        }
+    }
+
+    private void SwordMove()
+    {
+        Sword.transform.position = transform.position + offset;
+        Sword.transform.rotation = transform.rotation;
+    }
+
+    private void PlayerMove()
+    {
+        if (Input.GetKeyDown(KeyCode.F) && rotate)
+        {
+            player.transform.Rotate(new Vector3(0, 180, 0));
             Debug.Log("µ¹¾Æ°£µå¾Æ¤¿¤¿");
             rotate = false;
         }
-        else if (Input.GetKeyDown(KeyCode.F)&&!rotate)
+        else if (Input.GetKeyDown(KeyCode.F) && !rotate)
         {
-            player.transform.Rotate(new Vector3(0,-180,0));
+            player.transform.Rotate(new Vector3(0, -180, 0));
             Debug.Log("´Ù½Ã µ¹¾Æ°£µå¾Æ¤¿");
             rotate = true;
         }
-        if(rotate == false)
+        if (rotate == false)
         {
             if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
             {
@@ -68,7 +89,7 @@ public class Player : MonoBehaviour
             }
 
         }
-        else if(rotate == true)
+        else if (rotate == true)
         {
             if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
             {
@@ -77,16 +98,10 @@ public class Player : MonoBehaviour
         }
         if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Vertical") < 0)
         {
-            player.transform.Translate(new Vector3(0f,Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
-        }
-        #endregion
-        //±ÙÁ¢ °ø°Ý
-        if (Input.GetMouseButtonDown(0) && atking == false)
-        {
-            Debug.Log("»Ê·Õ»Ç¸¢");
-            StartCoroutine(atk());
+            player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
         }
     }
+
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Enemy"))
