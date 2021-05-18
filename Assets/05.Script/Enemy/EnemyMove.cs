@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
+    public LayerMask whatIsGround, whatIsPlayer;
+
+    //현재 내 상태
+    [Header("시아 범위")]
+    public float sightRange;
+    public bool bPlayerInSightRange;
+
     public int speed = 10;
     private GameObject Player;
     private Vector3 playerpos = Vector3.zero;
@@ -29,10 +36,25 @@ public class EnemyMove : MonoBehaviour
     }
     private void Update()
     {
+
+        //거리 계산해서(시아 공격거리) -> true false 리턴
+        bPlayerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         //가고 싶은곳
+        EnemyGoPlay();
+    }
+
+    private void EnemyGoPlay()
+    {
         PlayerPos = Player.transform.position;
         Vector3 dir = PlayerPos - transform.position;
-        dir.z =0;
+        dir.z = 0;
         transform.position += dir.normalized * speed * Time.deltaTime;
+    }
+
+    //사정거리 표시 인게임 X
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, sightRange);
     }
 }

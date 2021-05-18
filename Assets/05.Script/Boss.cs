@@ -16,16 +16,4 @@ public class Boss : MonoBehaviour
     {
         transform.position =Taget.transform.position;
     }
-    public void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.CompareTag("Play")&&isSpeed)
-        {
-            em.speed += add_Speed;
-        }
-        else
-        {
-            em.speed -= add_Speed;
-        }
-
-    }
 }
