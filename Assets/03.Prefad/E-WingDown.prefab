@@ -160,6 +160,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6cda88aa225fc4a8287d4dfde58de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vertical: 0
+  changeTime: 0
+  rigid2D: {fileID: 3993783040109015656}
+  timer: 0
+  direction: 1
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  sightRange: 0
+  bPlayerInSightRange: 0
   speed: 3
 --- !u!1001 &1626679246215982857
 PrefabInstance:
