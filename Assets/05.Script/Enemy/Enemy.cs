@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     [Header("넉백되는 시간")]
     public float nkDur;
 
+    public bool attacked = false;
+
 
     public int Heal;
     public int maxHeal = 25;
@@ -47,6 +49,7 @@ public class Enemy : MonoBehaviour
             SetEnemyStatus("E-WingDown", 100, 10, 1);
         }
         nowHpbar = hpBar.transform.GetChild(0).GetComponent<Image>();
+        attacked = true;
     }
 
     private void Update()
@@ -59,12 +62,17 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Sword"))
+        if (col.CompareTag("Sword")&&attacked)
         {
             nowHp -= player.atkDmg;
             Debug.Log(nowHp);
-            player.attacked = false;
-            StartCoroutine(Knockback(nkDur, nkpower));
+            attacked = false;
+
+            Vector2 dir = transform.position - col.transform.position;
+
+            rigid2D.AddForce(dir.normalized * nkpower, ForceMode2D.Impulse);
+
+            //StartCoroutine(Knockback(nkDur, nkpower));
             if (nowHp <= 0)
             {
                 Destroy(gameObject);
@@ -77,26 +85,28 @@ public class Enemy : MonoBehaviour
                     Instantiate(objHeal, transform.position, Quaternion.identity);
                 }
             }
+            attacked = true;
         }
     }
     public EnemyMove enemyMove;
     public IEnumerator Knockback(float dur, float power)
     {
         float timer = 0;
-        enemyMove.bPlayerInSightRange = false;
+        //enemyMove.bPlayerInSightRange = false;
         while (timer <= dur)
         {
             timer += Time.deltaTime;
             if (player.rotate)
             {
-                transform.Translate(transform.position - new Vector3(5, 0, 0));
+           
+                //transform.Translate(transform.position - new Vector3(5, 0, 0));
             }
             else if (!player.rotate)
             {
-                transform.Translate(transform.position - new Vector3(-5, 0, 0));
+                //transform.Translate(transform.position - new Vector3(-5, 0, 0));
             }
         }
-        enemyMove.bPlayerInSightRange = true;
+        //enemyMove.bPlayerInSightRange = true;
         yield return 0;
     }
 

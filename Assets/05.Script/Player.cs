@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
     public int nowHp;
     public int atkDmg;
     public float atkSpeed = 1;
-    public bool attacked = false;
     public Image nowKpbar;
 
     [SerializeField]

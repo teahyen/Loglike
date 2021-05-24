@@ -36001,7 +36001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6655807877761345638, guid: 948d730e31a4e844d98cc05419e769c8, type: 3}
       propertyPath: sightRange
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -6655807877761345638, guid: 948d730e31a4e844d98cc05419e769c8, type: 3}
       propertyPath: bPlayerInSightRange
