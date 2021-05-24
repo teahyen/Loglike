@@ -5,6 +5,14 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
+    //³Ë¹é±¸Çö
+    public Rigidbody2D rigid2D;
+    [Header("³Ë¹éµÇ´Â Èû")]
+    public float nkpower;
+    [Header("³Ë¹éµÇ´Â ½Ã°£")]
+    public float nkDur;
+
+
     public int Heal;
     public int maxHeal = 25;
     public GameObject objHeal;
@@ -56,7 +64,7 @@ public class Enemy : MonoBehaviour
             nowHp -= player.atkDmg;
             Debug.Log(nowHp);
             player.attacked = false;
-            player.nowHp += 10000000 ;
+            StartCoroutine(Knockback(nkDur, nkpower));
             if (nowHp <= 0)
             {
                 Destroy(gameObject);
@@ -71,12 +79,25 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-    //IEnumerator spawnHeal()
-    //{
-    //    yield return new WaitForSeconds(0.5f);
-    //    Heal = Random.Range(1, maxHeal);
-
-
-    //}
+    public EnemyMove enemyMove;
+    public IEnumerator Knockback(float dur, float power)
+    {
+        float timer = 0;
+        enemyMove.bPlayerInSightRange = false;
+        while (timer <= dur)
+        {
+            timer += Time.deltaTime;
+            if (player.rotate)
+            {
+                transform.Translate(transform.position - new Vector3(5, 0, 0));
+            }
+            else if (!player.rotate)
+            {
+                transform.Translate(transform.position - new Vector3(-5, 0, 0));
+            }
+        }
+        enemyMove.bPlayerInSightRange = true;
+        yield return 0;
+    }
 
 }

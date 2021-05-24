@@ -136,6 +136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806390d2415a12a4d9ee417ca0748478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rigid2D: {fileID: 3993783040109015656}
+  nkpower: 0
+  nkDur: 0
   Heal: 0
   maxHeal: 10
   objHeal: {fileID: 6151270100507320811, guid: 23ed363d1443473498dde6d5c615ef57, type: 3}
@@ -148,6 +151,7 @@ MonoBehaviour:
   atkDmg: 10
   atkSpeed: 5
   player: {fileID: 5458945019570689783, guid: 325c2cadd7600114f88852766a911c62, type: 3}
+  enemyMove: {fileID: -6655807877761345638}
 --- !u!114 &-6655807877761345638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,6 +269,10 @@ PrefabInstance:
     - target: {fileID: 8926628137628546054, guid: bd096a1fbd5b5474d8dc1acf27b7c6bc, type: 3}
       propertyPath: m_Name
       value: EnemyCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8926628137628546054, guid: bd096a1fbd5b5474d8dc1acf27b7c6bc, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd096a1fbd5b5474d8dc1acf27b7c6bc, type: 3}

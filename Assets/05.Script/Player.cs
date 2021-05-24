@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+
     [SerializeField]
     private Animator anim = null;
 
