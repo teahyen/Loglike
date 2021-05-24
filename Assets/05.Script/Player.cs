@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Animations;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
@@ -34,6 +35,9 @@ public class Player : MonoBehaviour
     private Image playerImg;
     public int hitTime =3;
     public bool ishit =false;
+    public CanvasGroup hitRed;
+    [Header("붉은 색인 시간")]
+    public float changTime;
 
     void SetAttackSpeed(float speed)
     {
@@ -104,8 +108,9 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Enemy"))
+        if (col.CompareTag("Enemy")&&!ishit)
         {
+            ishit = true;
             StartCoroutine(hit());
         }
         if (col.CompareTag("Heal"))//&& Input.GetKey(KeyCode.E)
@@ -130,10 +135,15 @@ public class Player : MonoBehaviour
     {
         nowHp -= 10;
         print("아파!");
-        yield return new WaitForSeconds(hitTime);
-        if(nowHp <= 10)
+        hitRed.alpha = 1;
+        if (nowHp <= 10)
         {
             SceneManager.LoadScene("GameOver");
         }
+        Camera.main.DOShakePosition(3);
+        yield return new WaitForSeconds(changTime);
+        hitRed.alpha = 0;
+        yield return new WaitForSeconds(hitTime-changTime);
+        ishit = false;
     }
 }
