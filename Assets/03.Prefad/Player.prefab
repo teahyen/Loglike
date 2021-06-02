@@ -84,7 +84,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5458945019570689544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -49.9, y: -30.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 0.37578547, y: 0.37578547, z: 0.37578547}
   m_Children:
   - {fileID: 5458945020874242768}
@@ -183,15 +183,15 @@ MonoBehaviour:
   nowHp: 100
   atkDmg: 50
   atkSpeed: 1
-  attacked: 0
   nowKpbar: {fileID: 0}
   Sword: {fileID: 5458945019372725313}
   atking: 0
-  _camera: {fileID: 0}
   rotate: 0
   playerImg: {fileID: 0}
   hitTime: 0
   ishit: 0
+  hitRed: {fileID: 0}
+  changTime: 0
 --- !u!1 &5458945020874242769
 GameObject:
   m_ObjectHideFlags: 0
