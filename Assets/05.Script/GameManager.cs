@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    #region ΩÃ±€≈Ê
     private static GameManager instance;
     public static GameManager Instance
     {
@@ -26,8 +27,10 @@ public class GameManager : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
     }
+    #endregion
     public bool clear = false;
     public int lastenemy;
+    public int listMap = 10;
 
     private void Update()
     {

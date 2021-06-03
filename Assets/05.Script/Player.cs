@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     [Header("붉은 색인 시간")]
     public float changTime;
 
+
     void SetAttackSpeed(float speed)
     {
         atkSpeed = speed;
