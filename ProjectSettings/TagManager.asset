@@ -7,6 +7,8 @@ TagManager:
   - Sword
   - Enemy
   - Heal
+  - SpawnPoint
+  - Rooms
   layers:
   - Default
   - TransparentFX

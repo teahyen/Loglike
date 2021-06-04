@@ -32,6 +32,14 @@ public class GameManager : MonoBehaviour
     public int lastenemy;
     public int listMap = 10;
 
+    //public GameObject[] maps = new GameObject[13];
+    //[Header("위 아래 오른쪽 왼쪽")]
+    //public GameObject[] endMaps = new GameObject[4];
+    //public bool isStop;
+    private void Start()
+    {
+        //isStop = false;
+    }
     private void Update()
     {
         if (lastenemy == 0)
