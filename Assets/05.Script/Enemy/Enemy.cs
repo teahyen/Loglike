@@ -68,7 +68,6 @@ public class Enemy : MonoBehaviour
             Debug.Log(nowHp);
             attacked = false;
             Vector2 dir = transform.position - col.transform.position;
-            E_spawn.countEnemy--;
             rigid2D.AddForce(dir.normalized * nkpower, ForceMode2D.Impulse);
 
             //StartCoroutine(Knockback(nkDur, nkpower));
@@ -76,7 +75,7 @@ public class Enemy : MonoBehaviour
             {
                 Destroy(gameObject);
                 Destroy(hpBar.gameObject);
-                //StartCoroutine(spawnHeal());
+                GameManager.Instance.lastenemy--;
                 //»˙∆— º“»Ø
                 if (Heal < 10)
                 {

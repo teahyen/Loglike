@@ -251,7 +251,7 @@ MonoBehaviour:
   atkDmg: 10
   atkSpeed: 5
   player: {fileID: 5458945019570689783, guid: 325c2cadd7600114f88852766a911c62, type: 3}
-  E_spawn: {fileID: 0}
+  E_spawn: {fileID: 1510101898153932399, guid: f7c7bd0ace8e1ca40964bdd9204b03c3, type: 3}
   enemyMove: {fileID: 6105040823307720493}
 --- !u!114 &6105040823307720493
 MonoBehaviour:
