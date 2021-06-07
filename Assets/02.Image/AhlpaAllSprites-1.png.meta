@@ -1,0 +1,6264 @@
+fileFormatVersion: 2
+guid: b97e05324cc0fa141859d40380f3268b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3217796072411431326
+    second: AhlpaAllSprites-1_0
+  - first:
+      213: -430378697021176556
+    second: AhlpaAllSprites-1_1
+  - first:
+      213: -3589116542767321542
+    second: AhlpaAllSprites-1_2
+  - first:
+      213: 247252528746322165
+    second: AhlpaAllSprites-1_3
+  - first:
+      213: 6535542926445779276
+    second: AhlpaAllSprites-1_4
+  - first:
+      213: 7228274051098374050
+    second: AhlpaAllSprites-1_5
+  - first:
+      213: -4970100805812555169
+    second: AhlpaAllSprites-1_6
+  - first:
+      213: -4418794252494596308
+    second: AhlpaAllSprites-1_7
+  - first:
+      213: -2185602765551549814
+    second: AhlpaAllSprites-1_8
+  - first:
+      213: 5401532615600025389
+    second: AhlpaAllSprites-1_9
+  - first:
+      213: -7705373763420141053
+    second: AhlpaAllSprites-1_10
+  - first:
+      213: -4546077405522644392
+    second: AhlpaAllSprites-1_11
+  - first:
+      213: 1906631531625521408
+    second: AhlpaAllSprites-1_12
+  - first:
+      213: 8801117564585907657
+    second: AhlpaAllSprites-1_13
+  - first:
+      213: 1300954604096667639
+    second: AhlpaAllSprites-1_14
+  - first:
+      213: -6938563802077317212
+    second: AhlpaAllSprites-1_15
+  - first:
+      213: -7623220319691162378
+    second: AhlpaAllSprites-1_16
+  - first:
+      213: 1506221427489450423
+    second: AhlpaAllSprites-1_17
+  - first:
+      213: 1398730517246996146
+    second: AhlpaAllSprites-1_18
+  - first:
+      213: -3835619278649813088
+    second: AhlpaAllSprites-1_19
+  - first:
+      213: 3699989131182257594
+    second: AhlpaAllSprites-1_20
+  - first:
+      213: 9099492168424737606
+    second: AhlpaAllSprites-1_21
+  - first:
+      213: 2822817054052219554
+    second: AhlpaAllSprites-1_22
+  - first:
+      213: -596333593998416811
+    second: AhlpaAllSprites-1_23
+  - first:
+      213: 1782773497844721343
+    second: AhlpaAllSprites-1_24
+  - first:
+      213: -401937568625562340
+    second: AhlpaAllSprites-1_25
+  - first:
+      213: 3685383837683061795
+    second: AhlpaAllSprites-1_26
+  - first:
+      213: 5349229111336802178
+    second: AhlpaAllSprites-1_27
+  - first:
+      213: 1904018072020178763
+    second: AhlpaAllSprites-1_28
+  - first:
+      213: 1086376694391637824
+    second: AhlpaAllSprites-1_29
+  - first:
+      213: -2998009244184046794
+    second: AhlpaAllSprites-1_30
+  - first:
+      213: -7467428749586225740
+    second: AhlpaAllSprites-1_31
+  - first:
+      213: 9025557428754252716
+    second: AhlpaAllSprites-1_32
+  - first:
+      213: -5954652545664930055
+    second: AhlpaAllSprites-1_33
+  - first:
+      213: -226708628791678963
+    second: AhlpaAllSprites-1_34
+  - first:
+      213: 6667110826878163303
+    second: AhlpaAllSprites-1_35
+  - first:
+      213: 8383643776292845973
+    second: AhlpaAllSprites-1_36
+  - first:
+      213: 6716110713683507513
+    second: AhlpaAllSprites-1_37
+  - first:
+      213: 2738936461224278189
+    second: AhlpaAllSprites-1_38
+  - first:
+      213: -896709442401038647
+    second: AhlpaAllSprites-1_39
+  - first:
+      213: 5611431971030181761
+    second: AhlpaAllSprites-1_40
+  - first:
+      213: 5966968439204184023
+    second: AhlpaAllSprites-1_41
+  - first:
+      213: 6216991536627897915
+    second: AhlpaAllSprites-1_42
+  - first:
+      213: 8047297009086292036
+    second: AhlpaAllSprites-1_43
+  - first:
+      213: 4524985471146640811
+    second: AhlpaAllSprites-1_44
+  - first:
+      213: -1582423086754549502
+    second: AhlpaAllSprites-1_45
+  - first:
+      213: 6205933236467643822
+    second: AhlpaAllSprites-1_46
+  - first:
+      213: -688320867073288943
+    second: AhlpaAllSprites-1_47
+  - first:
+      213: 8959750049421057214
+    second: AhlpaAllSprites-1_48
+  - first:
+      213: -8213014435606475965
+    second: AhlpaAllSprites-1_49
+  - first:
+      213: 2085397654713598611
+    second: AhlpaAllSprites-1_50
+  - first:
+      213: -2844053448567442457
+    second: AhlpaAllSprites-1_51
+  - first:
+      213: -4555650720160578054
+    second: AhlpaAllSprites-1_52
+  - first:
+      213: -4600265170724293731
+    second: AhlpaAllSprites-1_53
+  - first:
+      213: 5655173932171958003
+    second: AhlpaAllSprites-1_54
+  - first:
+      213: 3299809615113444195
+    second: AhlpaAllSprites-1_55
+  - first:
+      213: -7966152442162354060
+    second: AhlpaAllSprites-1_56
+  - first:
+      213: 146674681553122461
+    second: AhlpaAllSprites-1_57
+  - first:
+      213: 4511744556519552441
+    second: AhlpaAllSprites-1_58
+  - first:
+      213: 1191627744890045707
+    second: AhlpaAllSprites-1_59
+  - first:
+      213: -1128290170587823215
+    second: AhlpaAllSprites-1_60
+  - first:
+      213: -5178240930301142229
+    second: AhlpaAllSprites-1_61
+  - first:
+      213: 3810562222176444909
+    second: AhlpaAllSprites-1_62
+  - first:
+      213: 3299878465471795693
+    second: AhlpaAllSprites-1_63
+  - first:
+      213: -7834494004048813338
+    second: AhlpaAllSprites-1_64
+  - first:
+      213: 5658738117657927731
+    second: AhlpaAllSprites-1_65
+  - first:
+      213: -1925343525771049030
+    second: AhlpaAllSprites-1_66
+  - first:
+      213: 1167979296325247023
+    second: AhlpaAllSprites-1_67
+  - first:
+      213: 5857534655032653805
+    second: AhlpaAllSprites-1_68
+  - first:
+      213: 29240743106813181
+    second: AhlpaAllSprites-1_69
+  - first:
+      213: 5165642877893462359
+    second: AhlpaAllSprites-1_70
+  - first:
+      213: -3960163819823327069
+    second: AhlpaAllSprites-1_71
+  - first:
+      213: 5554881796727098333
+    second: AhlpaAllSprites-1_72
+  - first:
+      213: -5376828679630014234
+    second: AhlpaAllSprites-1_73
+  - first:
+      213: 879175913458983320
+    second: AhlpaAllSprites-1_74
+  - first:
+      213: -5111064676053543128
+    second: AhlpaAllSprites-1_75
+  - first:
+      213: -6855524199158127377
+    second: AhlpaAllSprites-1_76
+  - first:
+      213: -8412549405765384319
+    second: AhlpaAllSprites-1_77
+  - first:
+      213: 759077785539115457
+    second: AhlpaAllSprites-1_78
+  - first:
+      213: 4110975032294961561
+    second: AhlpaAllSprites-1_79
+  - first:
+      213: 5060585719859297041
+    second: AhlpaAllSprites-1_80
+  - first:
+      213: -3175642290444593632
+    second: AhlpaAllSprites-1_81
+  - first:
+      213: 1221428039356872578
+    second: AhlpaAllSprites-1_82
+  - first:
+      213: 1281582406751906675
+    second: AhlpaAllSprites-1_83
+  - first:
+      213: 5864153205976732543
+    second: AhlpaAllSprites-1_84
+  - first:
+      213: 594546807763004959
+    second: AhlpaAllSprites-1_85
+  - first:
+      213: 564095637336746808
+    second: AhlpaAllSprites-1_86
+  - first:
+      213: -3216195650683792669
+    second: AhlpaAllSprites-1_87
+  - first:
+      213: -3648025268333747276
+    second: AhlpaAllSprites-1_88
+  - first:
+      213: 2006241585879387774
+    second: AhlpaAllSprites-1_89
+  - first:
+      213: 2671266851445815580
+    second: AhlpaAllSprites-1_90
+  - first:
+      213: -3453611272675429380
+    second: AhlpaAllSprites-1_91
+  - first:
+      213: 3446035597523677632
+    second: AhlpaAllSprites-1_92
+  - first:
+      213: 3502005547849997905
+    second: AhlpaAllSprites-1_93
+  - first:
+      213: 6364437901631210151
+    second: AhlpaAllSprites-1_94
+  - first:
+      213: -5520196987110620182
+    second: AhlpaAllSprites-1_95
+  - first:
+      213: 4728922449743775965
+    second: AhlpaAllSprites-1_96
+  - first:
+      213: 3766426895364952723
+    second: AhlpaAllSprites-1_97
+  - first:
+      213: -7283400492085071568
+    second: AhlpaAllSprites-1_98
+  - first:
+      213: -5884730505867116487
+    second: AhlpaAllSprites-1_99
+  - first:
+      213: 6321728719994929372
+    second: AhlpaAllSprites-1_100
+  - first:
+      213: -1526445250335322370
+    second: AhlpaAllSprites-1_101
+  - first:
+      213: 4396432995035096318
+    second: AhlpaAllSprites-1_102
+  - first:
+      213: 2840197604530391259
+    second: AhlpaAllSprites-1_103
+  - first:
+      213: 6991773114658544385
+    second: AhlpaAllSprites-1_104
+  - first:
+      213: 8622953205747562343
+    second: AhlpaAllSprites-1_105
+  - first:
+      213: -8043758329969332441
+    second: AhlpaAllSprites-1_106
+  - first:
+      213: 4247100332947400559
+    second: AhlpaAllSprites-1_107
+  - first:
+      213: 813075359808292673
+    second: AhlpaAllSprites-1_108
+  - first:
+      213: -2506956201524519294
+    second: AhlpaAllSprites-1_109
+  - first:
+      213: -4474318814355295469
+    second: AhlpaAllSprites-1_110
+  - first:
+      213: 7644802667827405538
+    second: AhlpaAllSprites-1_111
+  - first:
+      213: 6007318853490057217
+    second: AhlpaAllSprites-1_112
+  - first:
+      213: -5261615924227307145
+    second: AhlpaAllSprites-1_113
+  - first:
+      213: -7243116851029607720
+    second: AhlpaAllSprites-1_114
+  - first:
+      213: -5070872991735323499
+    second: AhlpaAllSprites-1_115
+  - first:
+      213: 4118964137895463607
+    second: AhlpaAllSprites-1_116
+  - first:
+      213: 5313752345323000739
+    second: AhlpaAllSprites-1_117
+  - first:
+      213: -1833060872652667612
+    second: AhlpaAllSprites-1_118
+  - first:
+      213: -6088447110959663813
+    second: AhlpaAllSprites-1_119
+  - first:
+      213: -9215036914108775573
+    second: AhlpaAllSprites-1_120
+  - first:
+      213: -2379403936243938154
+    second: AhlpaAllSprites-1_121
+  - first:
+      213: 8598879283785073927
+    second: AhlpaAllSprites-1_122
+  - first:
+      213: -195152153234269505
+    second: AhlpaAllSprites-1_123
+  - first:
+      213: 8814673893229924429
+    second: AhlpaAllSprites-1_124
+  - first:
+      213: 6179178881359263234
+    second: AhlpaAllSprites-1_125
+  - first:
+      213: 7742242656062608610
+    second: AhlpaAllSprites-1_126
+  - first:
+      213: -7633657312650141993
+    second: AhlpaAllSprites-1_127
+  - first:
+      213: 1641318195495806420
+    second: AhlpaAllSprites-1_128
+  - first:
+      213: 3511813323349916433
+    second: AhlpaAllSprites-1_129
+  - first:
+      213: -5736124521503137845
+    second: AhlpaAllSprites-1_130
+  - first:
+      213: -9117143098857455913
+    second: AhlpaAllSprites-1_131
+  - first:
+      213: -6064335269115276496
+    second: AhlpaAllSprites-1_132
+  - first:
+      213: 3614317492908108283
+    second: AhlpaAllSprites-1_133
+  - first:
+      213: 8902169194150887758
+    second: AhlpaAllSprites-1_134
+  - first:
+      213: 4058379719282309737
+    second: AhlpaAllSprites-1_135
+  - first:
+      213: -6988094614670548079
+    second: AhlpaAllSprites-1_136
+  - first:
+      213: 1279273283583722034
+    second: AhlpaAllSprites-1_137
+  - first:
+      213: 5330274389001692624
+    second: AhlpaAllSprites-1_138
+  - first:
+      213: -4084426751994283965
+    second: AhlpaAllSprites-1_139
+  - first:
+      213: 8571744264899158176
+    second: AhlpaAllSprites-1_140
+  - first:
+      213: -5563552655799414651
+    second: AhlpaAllSprites-1_141
+  - first:
+      213: -655119251440847995
+    second: AhlpaAllSprites-1_142
+  - first:
+      213: 1351836249787138098
+    second: AhlpaAllSprites-1_143
+  - first:
+      213: 5738858490979666613
+    second: AhlpaAllSprites-1_144
+  - first:
+      213: -4822977089000615670
+    second: AhlpaAllSprites-1_145
+  - first:
+      213: -823476954918904773
+    second: AhlpaAllSprites-1_146
+  - first:
+      213: -4054207175254913611
+    second: AhlpaAllSprites-1_147
+  - first:
+      213: -2770315323355132024
+    second: AhlpaAllSprites-1_148
+  - first:
+      213: -4326595669628194814
+    second: AhlpaAllSprites-1_149
+  - first:
+      213: 7937253520674124480
+    second: AhlpaAllSprites-1_150
+  - first:
+      213: -4439054821291019873
+    second: AhlpaAllSprites-1_151
+  - first:
+      213: -1448206153726632724
+    second: AhlpaAllSprites-1_152
+  - first:
+      213: -3478913103586547225
+    second: AhlpaAllSprites-1_153
+  - first:
+      213: -8277123887412546455
+    second: AhlpaAllSprites-1_154
+  - first:
+      213: 978617029083526338
+    second: AhlpaAllSprites-1_155
+  - first:
+      213: -8251485111223361117
+    second: AhlpaAllSprites-1_156
+  - first:
+      213: 9065169888012551593
+    second: AhlpaAllSprites-1_157
+  - first:
+      213: 8191021583264529115
+    second: AhlpaAllSprites-1_158
+  - first:
+      213: -3887706678528619577
+    second: AhlpaAllSprites-1_159
+  - first:
+      213: 474876110521323983
+    second: AhlpaAllSprites-1_160
+  - first:
+      213: -8197126467783195647
+    second: AhlpaAllSprites-1_161
+  - first:
+      213: -7900064476288170995
+    second: AhlpaAllSprites-1_162
+  - first:
+      213: 9143187554661175740
+    second: AhlpaAllSprites-1_163
+  - first:
+      213: 2242161839584632949
+    second: AhlpaAllSprites-1_164
+  - first:
+      213: 5104690646496608421
+    second: AhlpaAllSprites-1_165
+  - first:
+      213: -2445143550896554971
+    second: AhlpaAllSprites-1_166
+  - first:
+      213: 851441121917291753
+    second: AhlpaAllSprites-1_167
+  - first:
+      213: -5039158103914562647
+    second: AhlpaAllSprites-1_168
+  - first:
+      213: -8462719214940385036
+    second: AhlpaAllSprites-1_169
+  - first:
+      213: 2101280132222505734
+    second: AhlpaAllSprites-1_170
+  - first:
+      213: 8524412054161699868
+    second: AhlpaAllSprites-1_171
+  - first:
+      213: 2640460326137992024
+    second: AhlpaAllSprites-1_172
+  - first:
+      213: 3944627875941404742
+    second: AhlpaAllSprites-1_173
+  - first:
+      213: 585533201672196240
+    second: AhlpaAllSprites-1_174
+  - first:
+      213: 510040588816584131
+    second: AhlpaAllSprites-1_175
+  - first:
+      213: 4097147316955633648
+    second: AhlpaAllSprites-1_176
+  - first:
+      213: -6399322282278428820
+    second: AhlpaAllSprites-1_177
+  - first:
+      213: 1128724319110229084
+    second: AhlpaAllSprites-1_178
+  - first:
+      213: -6437610360374927330
+    second: AhlpaAllSprites-1_179
+  - first:
+      213: 5433724775729695062
+    second: AhlpaAllSprites-1_180
+  - first:
+      213: 4052988717139041835
+    second: AhlpaAllSprites-1_181
+  - first:
+      213: 8267411796431634670
+    second: AhlpaAllSprites-1_182
+  - first:
+      213: -6102548567667454792
+    second: AhlpaAllSprites-1_183
+  - first:
+      213: 5760401751588072511
+    second: AhlpaAllSprites-1_184
+  - first:
+      213: -793130100986824949
+    second: AhlpaAllSprites-1_185
+  - first:
+      213: -105775555843586855
+    second: AhlpaAllSprites-1_186
+  - first:
+      213: -4493429282933132840
+    second: AhlpaAllSprites-1_187
+  - first:
+      213: 6001505103171608374
+    second: AhlpaAllSprites-1_188
+  - first:
+      213: -7026907082795341336
+    second: AhlpaAllSprites-1_189
+  - first:
+      213: 5663739277270403800
+    second: AhlpaAllSprites-1_190
+  - first:
+      213: 5872860522522172017
+    second: AhlpaAllSprites-1_191
+  - first:
+      213: -4802267044982279288
+    second: AhlpaAllSprites-1_192
+  - first:
+      213: 5260008700451398315
+    second: AhlpaAllSprites-1_193
+  - first:
+      213: 5720552754506378320
+    second: AhlpaAllSprites-1_194
+  - first:
+      213: -7067200605481034743
+    second: AhlpaAllSprites-1_195
+  - first:
+      213: -6736424670990909007
+    second: AhlpaAllSprites-1_196
+  - first:
+      213: 7425498379838932793
+    second: AhlpaAllSprites-1_197
+  - first:
+      213: -1865799269204865539
+    second: AhlpaAllSprites-1_198
+  - first:
+      213: 3488176319471881949
+    second: AhlpaAllSprites-1_199
+  - first:
+      213: 3708473100614640092
+    second: AhlpaAllSprites-1_200
+  - first:
+      213: -142583330328116701
+    second: AhlpaAllSprites-1_201
+  - first:
+      213: -1399860003100701770
+    second: AhlpaAllSprites-1_202
+  - first:
+      213: -380617142144064482
+    second: AhlpaAllSprites-1_203
+  - first:
+      213: 392774443156117686
+    second: AhlpaAllSprites-1_204
+  - first:
+      213: 3785054972421159059
+    second: AhlpaAllSprites-1_205
+  - first:
+      213: -7342093129203197632
+    second: AhlpaAllSprites-1_206
+  - first:
+      213: 1802016108837385642
+    second: AhlpaAllSprites-1_207
+  - first:
+      213: 5092162927433173516
+    second: AhlpaAllSprites-1_208
+  - first:
+      213: 1576527463103112151
+    second: AhlpaAllSprites-1_209
+  - first:
+      213: -5518054568658293921
+    second: AhlpaAllSprites-1_210
+  - first:
+      213: 316979145232418149
+    second: AhlpaAllSprites-1_211
+  - first:
+      213: 4873114063486474838
+    second: AhlpaAllSprites-1_212
+  - first:
+      213: 2315962935013560821
+    second: AhlpaAllSprites-1_213
+  - first:
+      213: -7988627378756609278
+    second: AhlpaAllSprites-1_214
+  - first:
+      213: 7032988256565325199
+    second: AhlpaAllSprites-1_215
+  - first:
+      213: -1502807599553153957
+    second: AhlpaAllSprites-1_216
+  - first:
+      213: -7715256510519507301
+    second: AhlpaAllSprites-1_217
+  - first:
+      213: 5283261745600056936
+    second: AhlpaAllSprites-1_218
+  - first:
+      213: -4489652181800688994
+    second: AhlpaAllSprites-1_219
+  - first:
+      213: -334792374026628864
+    second: AhlpaAllSprites-1_220
+  - first:
+      213: -3418288773756449730
+    second: AhlpaAllSprites-1_221
+  - first:
+      213: -5243873787213391802
+    second: AhlpaAllSprites-1_222
+  - first:
+      213: 8222110941762204687
+    second: AhlpaAllSprites-1_223
+  - first:
+      213: 613330449534695016
+    second: AhlpaAllSprites-1_224
+  - first:
+      213: -5592059000722772549
+    second: AhlpaAllSprites-1_225
+  - first:
+      213: -7894549229783798520
+    second: AhlpaAllSprites-1_226
+  - first:
+      213: -390463270255077260
+    second: AhlpaAllSprites-1_227
+  - first:
+      213: -7583564724863163245
+    second: AhlpaAllSprites-1_228
+  - first:
+      213: -2133699912780861692
+    second: AhlpaAllSprites-1_229
+  - first:
+      213: -8376926257109904134
+    second: AhlpaAllSprites-1_230
+  - first:
+      213: -7549525028852279680
+    second: AhlpaAllSprites-1_231
+  - first:
+      213: 7103595418612099603
+    second: AhlpaAllSprites-1_232
+  - first:
+      213: 8919634383573174411
+    second: AhlpaAllSprites-1_233
+  - first:
+      213: 4635620134578586610
+    second: AhlpaAllSprites-1_234
+  - first:
+      213: -5623231631797977526
+    second: AhlpaAllSprites-1_235
+  - first:
+      213: 3792435288144550220
+    second: AhlpaAllSprites-1_236
+  - first:
+      213: -736004645440107539
+    second: AhlpaAllSprites-1_237
+  - first:
+      213: 2259954044112411036
+    second: AhlpaAllSprites-1_238
+  - first:
+      213: -6744834052915893789
+    second: AhlpaAllSprites-1_239
+  - first:
+      213: -4069716379635209798
+    second: AhlpaAllSprites-1_240
+  - first:
+      213: -3074401324139380532
+    second: AhlpaAllSprites-1_241
+  - first:
+      213: -7264139306913861675
+    second: AhlpaAllSprites-1_242
+  - first:
+      213: 8986824554207980331
+    second: AhlpaAllSprites-1_243
+  - first:
+      213: 1514758710295030531
+    second: AhlpaAllSprites-1_244
+  - first:
+      213: 4533042713925409993
+    second: AhlpaAllSprites-1_245
+  - first:
+      213: -3706299274774673115
+    second: AhlpaAllSprites-1_246
+  - first:
+      213: -3400378176490181577
+    second: AhlpaAllSprites-1_247
+  - first:
+      213: -3783255458913171162
+    second: AhlpaAllSprites-1_248
+  - first:
+      213: 1610660371621382712
+    second: AhlpaAllSprites-1_249
+  - first:
+      213: 8183970088442815061
+    second: AhlpaAllSprites-1_250
+  - first:
+      213: 784180068222852620
+    second: AhlpaAllSprites-1_251
+  - first:
+      213: 209314256176388079
+    second: AhlpaAllSprites-1_252
+  - first:
+      213: -5913018448772649512
+    second: AhlpaAllSprites-1_253
+  - first:
+      213: -1371295065583018251
+    second: AhlpaAllSprites-1_254
+  - first:
+      213: 356145478560411518
+    second: AhlpaAllSprites-1_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 349
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ef44055871853d0800000000000000
+      internalID: -3217796072411431326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 349
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154825fadcf60af0800000000000000
+      internalID: -430378697021176556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 347
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e20e23585e03ec0800000000000000
+      internalID: -3589116542767321542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 357
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8ddb96dda6e6300800000000000000
+      internalID: 247252528746322165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c491e113aa9e2ba50800000000000000
+      internalID: 6535542926445779276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 357
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af64e2d3fcff4460800000000000000
+      internalID: 7228274051098374050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 363
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52f8ab56a7a60bb0800000000000000
+      internalID: -4970100805812555169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 358
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2795840a0a4da2c0800000000000000
+      internalID: -4418794252494596308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 358
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8240335ddd2ba1e0800000000000000
+      internalID: -2185602765551549814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 359
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fa68b9b4916fa40800000000000000
+      internalID: 5401532615600025389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 358
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a4ab11363011590800000000000000
+      internalID: -7705373763420141053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 358
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852b4629fa619e0c0800000000000000
+      internalID: -4546077405522644392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 358
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0012918b647b57a10800000000000000
+      internalID: 1906631531625521408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 334
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5189f6bc9d32a70800000000000000
+      internalID: 8801117564585907657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 310
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff3716d15bed0210800000000000000
+      internalID: 1300954604096667639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_15
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 346
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a73ccdebf445bf90800000000000000
+      internalID: -6938563802077317212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 351
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb4404281e43690800000000000000
+      internalID: -7623220319691162378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 341
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b92792786c27e410800000000000000
+      internalID: 1506221427489450423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_18
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 341
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be6101aef9496310800000000000000
+      internalID: 1398730517246996146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 342
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7107a869425cac0800000000000000
+      internalID: -3835619278649813088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_20
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 341
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5bcece280095330800000000000000
+      internalID: 3699989131182257594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 342
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bc76f7ae3e74e70800000000000000
+      internalID: 9099492168424737606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_22
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 342
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa72bc9729ac2720800000000000000
+      internalID: 2822817054052219554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 343
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554a71a71c569b7f0800000000000000
+      internalID: -596333593998416811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 323
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6e30efc0fadb810800000000000000
+      internalID: 1782773497844721343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 322
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d603039e70c6af0800000000000000
+      internalID: -401937568625562340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_26
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 310
+        width: 5
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324901a031d152330800000000000000
+      internalID: 3685383837683061795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_27
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 340
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287986b09874c3a40800000000000000
+      internalID: 5349229111336802178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_28
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 339
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47dfac395e6c6a10800000000000000
+      internalID: 1904018072020178763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 339
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0470a7109d5931f00800000000000000
+      internalID: 1086376694391637824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 339
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633921ff97ee466d0800000000000000
+      internalID: -2998009244184046794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 340
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5af5bcd1d5e5890800000000000000
+      internalID: -7467428749586225740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 340
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca309c879a8314d70800000000000000
+      internalID: 9025557428754252716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 339
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe24ce0f03dc5da0800000000000000
+      internalID: -5954652545664930055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 342
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082b5904b19adcf0800000000000000
+      internalID: -226708628791678963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_35
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 342
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769db3229f5568c50800000000000000
+      internalID: 6667110826878163303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 342
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5997959989fa85470800000000000000
+      internalID: 8383643776292845973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_37
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 342
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939fc415c1b643d50800000000000000
+      internalID: 6716110713683507513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 311
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da873a13338a20620800000000000000
+      internalID: 2738936461224278189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 328
+        width: 48
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce82fa538f3e83f0800000000000000
+      internalID: -896709442401038647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_40
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 292
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1872682a5afcfdd40800000000000000
+      internalID: 5611431971030181761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_41
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 292
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df7bbc5e2eeec250800000000000000
+      internalID: 5966968439204184023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_42
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 292
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36d0501dd0374650800000000000000
+      internalID: 6216991536627897915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_43
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 292
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440e6ac4efdbdaf60800000000000000
+      internalID: 8047297009086292036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 296
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5cf75cf4afbce30800000000000000
+      internalID: 4524985471146640811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_45
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 299
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2013e9d269a1a0ae0800000000000000
+      internalID: -1582423086754549502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_46
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 316
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b17be567ef1650800000000000000
+      internalID: 6205933236467643822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_47
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 316
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1159b9a71d79276f0800000000000000
+      internalID: -688320867073288943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_48
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 316
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcd70cf23d675c70800000000000000
+      internalID: 8959750049421057214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 316
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b458e92e2850e80800000000000000
+      internalID: -8213014435606475965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_50
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 303
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39203a83e12d0fc10800000000000000
+      internalID: 2085397654713598611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 303
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3b9ebf474e788d0800000000000000
+      internalID: -2844053448567442457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_52
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af583109ec317c0c0800000000000000
+      internalID: -4555650720160578054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_53
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93706253339820c0800000000000000
+      internalID: -4600265170724293731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_54
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 304
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6982a9ab63b7e40800000000000000
+      internalID: 5655173932171958003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_55
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 281
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b514f9c574bcd20800000000000000
+      internalID: 3299809615113444195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 281
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4786d427f8a827190800000000000000
+      internalID: -7966152442162354060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 292
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94748388d7190200800000000000000
+      internalID: 146674681553122461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_58
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 292
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b576a815cfec9e30800000000000000
+      internalID: 4511744556519552441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_59
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 293
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05cba6de13898010800000000000000
+      internalID: 1191627744890045707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_60
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 293
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1934c8a51128750f0800000000000000
+      internalID: -1128290170587823215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_61
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 293
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b13043f413328b0800000000000000
+      internalID: -5178240930301142229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_62
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 292
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1a95fd626d1e430800000000000000
+      internalID: 3810562222176444909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_63
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 281
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de158681bf58bcd20800000000000000
+      internalID: 3299878465471795693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_64
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 281
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e22eb55639464390800000000000000
+      internalID: -7834494004048813338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 281
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330a6f33650e78e40800000000000000
+      internalID: 5658738117657927731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_66
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 281
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab781d3a34ec745e0800000000000000
+      internalID: -1925343525771049030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_67
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 281
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f202a765bfe753010800000000000000
+      internalID: 1167979296325247023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 265
+        width: 115
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7f2c4fbb42a4150800000000000000
+      internalID: 5857534655032653805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_69
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 263
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc99d90d42e76000800000000000000
+      internalID: 29240743106813181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 263
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759cd5524dc00b740800000000000000
+      internalID: 5165642877893462359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_71
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 263
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8931bdcfbaa09c0800000000000000
+      internalID: -3960163819823327069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_72
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 263
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbc3372097e61d40800000000000000
+      internalID: 5554881796727098333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_73
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 263
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e83584bdcaa165b0800000000000000
+      internalID: -5376828679630014234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_74
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 265
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8916dc0d5d5733c00800000000000000
+      internalID: 879175913458983320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_75
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 263
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82718c7b1c9d119b0800000000000000
+      internalID: -5111064676053543128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_76
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 263
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4e51020194cd0a0800000000000000
+      internalID: -6855524199158127377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_77
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 272
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1874ee513ee904b80800000000000000
+      internalID: -8412549405765384319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_78
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 269
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9f2f36939c88a00800000000000000
+      internalID: 759077785539115457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_79
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 269
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991f070d20e1d0930800000000000000
+      internalID: 4110975032294961561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_80
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 246
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bb0ab66efca3640800000000000000
+      internalID: 5060585719859297041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_81
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 256
+        width: 49
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0269750892adde3d0800000000000000
+      internalID: -3175642290444593632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_82
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 246
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2877194945263f010800000000000000
+      internalID: 1221428039356872578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_83
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 246
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b66d8a86819c110800000000000000
+      internalID: 1281582406751906675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_84
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 246
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7316be6548a16150800000000000000
+      internalID: 5864153205976732543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 246
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e6e0feb21404800800000000000000
+      internalID: 594546807763004959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_86
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 246
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bedc25ef114d700800000000000000
+      internalID: 564095637336746808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_87
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 246
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e216d88817cd53d0800000000000000
+      internalID: -3216195650683792669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_88
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 234
+        width: 94
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b36155b85c9f5dc0800000000000000
+      internalID: -3648025268333747276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 250
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e05f3c71a97db10800000000000000
+      internalID: 2006241585879387774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_90
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1934b46c0f321520800000000000000
+      internalID: 2671266851445815580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_91
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 249
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf375e378de4210d0800000000000000
+      internalID: -3453611272675429380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_92
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1ffb93e17c2df20800000000000000
+      internalID: 3446035597523677632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_93
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15edb09cd7f999030800000000000000
+      internalID: 3502005547849997905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_94
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c2c12d86035850800000000000000
+      internalID: 6364437901631210151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_95
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 249
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3071566125463b0800000000000000
+      internalID: -5520196987110620182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_96
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd80953c9e180a140800000000000000
+      internalID: 4728922449743775965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_97
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39294b25e49054430800000000000000
+      internalID: 3766426895364952723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_98
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 243
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0313d5077d92cea90800000000000000
+      internalID: -7283400492085071568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_99
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 243
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930c2e698cc355ea0800000000000000
+      internalID: -5884730505867116487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_100
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 243
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0cea1e6ca4bb750800000000000000
+      internalID: 6321728719994929372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_101
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 228
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe4eacd12af0dae0800000000000000
+      internalID: -1526445250335322370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 228
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4afd30484430d30800000000000000
+      internalID: 4396432995035096318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_103
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 228
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd803fd5ca86a6720800000000000000
+      internalID: 2840197604530391259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_104
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 228
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b59519a94c70160800000000000000
+      internalID: 6991773114658544385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_105
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 229
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76736671142eaa770800000000000000
+      internalID: 8622953205747562343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_106
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 230
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fa613aa64de5090800000000000000
+      internalID: -8043758329969332441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_107
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 229
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e5ce204bb0fa30800000000000000
+      internalID: 4247100332947400559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_108
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 228
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1470ffc5bbf984b00800000000000000
+      internalID: 813075359808292673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e1bacfd90853dd0800000000000000
+      internalID: -2506956201524519294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_110
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313718a8eb608e1c0800000000000000
+      internalID: -4474318814355295469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_111
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 238
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2afc1c58bc71a60800000000000000
+      internalID: 7644802667827405538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_112
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10028ca4ba84e5350800000000000000
+      internalID: 6007318853490057217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_113
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 238
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77984e3b13cfaf6b0800000000000000
+      internalID: -5261615924227307145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_114
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dafbb389974b7b90800000000000000
+      internalID: -7243116851029607720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_115
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 238
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5946e7271e3a0a9b0800000000000000
+      internalID: -5070872991735323499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_116
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba05d96f00892930800000000000000
+      internalID: 4118964137895463607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_117
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a35067ca9d3eb940800000000000000
+      internalID: 5313752345323000739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_118
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 225
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425ced929d8af86e0800000000000000
+      internalID: -1833060872652667612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_119
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 225
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35fe7d4c9d718ba0800000000000000
+      internalID: -6088447110959663813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_120
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 225
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b634f6effbc9d1080800000000000000
+      internalID: -9215036914108775573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_121
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 225
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c83030ab8aafed0800000000000000
+      internalID: -2379403936243938154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_122
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7058978562b555770800000000000000
+      internalID: 8598879283785073927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_123
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 225
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba915d862eaa4df0800000000000000
+      internalID: -195152153234269505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_124
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 225
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4011e82433045a70800000000000000
+      internalID: 8814673893229924429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_125
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 225
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206b303347ad0c550800000000000000
+      internalID: 6179178881359263234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_126
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 225
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e41d7feca8f17b60800000000000000
+      internalID: 7742242656062608610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_127
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 225
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dedc667e1dcf0690800000000000000
+      internalID: -7633657312650141993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_128
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 225
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a9e5e33227c610800000000000000
+      internalID: 1641318195495806420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_129
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 214
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b71c77c977cb030800000000000000
+      internalID: 3511813323349916433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_130
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 214
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfd56493213560b0800000000000000
+      internalID: -5736124521503137845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_131
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 190
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de723208a6697180800000000000000
+      internalID: -9117143098857455913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_132
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 214
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033d285f33727dba0800000000000000
+      internalID: -6064335269115276496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_133
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 214
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a44e3c92a82230800000000000000
+      internalID: 3614317492908108283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_134
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 214
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410ac367bbda8b70800000000000000
+      internalID: 8902169194150887758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_135
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ab87b3ad2425830800000000000000
+      internalID: 4058379719282309737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_136
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193edb3f8fc450f90800000000000000
+      internalID: -6988094614670548079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_137
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 208
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232c7a60644e0c110800000000000000
+      internalID: 1279273283583722034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_138
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 205
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5eec7d050f8f940800000000000000
+      internalID: 5330274389001692624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_139
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 205
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348374062833157c0800000000000000
+      internalID: -4084426751994283965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_140
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 205
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a06ece6ef3f4f670800000000000000
+      internalID: 8571744264899158176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_141
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 205
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58015e5265a4ac2b0800000000000000
+      internalID: -5563552655799414651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_142
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 176
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5833954038c88e6f0800000000000000
+      internalID: -655119251440847995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_143
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 203
+        width: 71
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2300f0728efa2c210800000000000000
+      internalID: 1351836249787138098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_144
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 186
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bac31b446584af40800000000000000
+      internalID: 5738858490979666613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_145
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 202
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01554a04e7511db0800000000000000
+      internalID: -4822977089000615670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_146
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 202
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c965d821c6294f0800000000000000
+      internalID: -823476954918904773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_147
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 190
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd4711ed009cb7c0800000000000000
+      internalID: -4054207175254913611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_148
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 202
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f889324ecdd89d0800000000000000
+      internalID: -2770315323355132024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_149
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 190
+        width: 4
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20071196928d4f3c0800000000000000
+      internalID: -4326595669628194814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_150
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2ffff060ac62e60800000000000000
+      internalID: 7937253520674124480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_151
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91b67eb82f4562c0800000000000000
+      internalID: -4439054821291019873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_152
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecd6951d20f6ebe0800000000000000
+      internalID: -1448206153726632724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_153
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9a540e6fa68bfc0800000000000000
+      internalID: -3478913103586547225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_154
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 188
+        width: 74
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964ffd0bdafb12d80800000000000000
+      internalID: -8277123887412546455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_155
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 150
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4fba5c00fb49d00800000000000000
+      internalID: 978617029083526338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 190
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a16b147206dc7d80800000000000000
+      internalID: -8251485111223361117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_157
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 190
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54e8bdbf3fdcd70800000000000000
+      internalID: 9065169888012551593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_158
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 190
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda3a0a6bba5ca170800000000000000
+      internalID: 8191021583264529115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_159
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 190
+        width: 60
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb4363bf571c0ac0800000000000000
+      internalID: -3887706678528619577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_160
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc151f77e49179600800000000000000
+      internalID: 474876110521323983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_161
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10484d468e4fd3e80800000000000000
+      internalID: -8197126467783195647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_162
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04492417355d5290800000000000000
+      internalID: -7900064476288170995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_163
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 181
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb11a5663a023ee70800000000000000
+      internalID: 9143187554661175740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_164
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 145
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570e0694052cd1f10800000000000000
+      internalID: 2242161839584632949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_165
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 167
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a080b0e81187d640800000000000000
+      internalID: 5104690646496608421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_166
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 167
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c39f735ea111ed0800000000000000
+      internalID: -2445143550896554971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_167
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 169
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec4a03703de0db00800000000000000
+      internalID: 851441121917291753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_168
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab34213760511ab0800000000000000
+      internalID: -5039158103914562647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_169
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f01b9f16b16e8a80800000000000000
+      internalID: -8462719214940385036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_170
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60355bea52f392d10800000000000000
+      internalID: 2101280132222505734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_171
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14bd57599bcc4670800000000000000
+      internalID: 8524412054161699868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_172
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 162
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85397f64dacc4a420800000000000000
+      internalID: 2640460326137992024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_173
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 169
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640579457222eb630800000000000000
+      internalID: 3944627875941404742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_174
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 154
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905ed9385b302800800000000000000
+      internalID: 585533201672196240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_175
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 149
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd81759637041700800000000000000
+      internalID: 510040588816584131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_176
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 149
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7d593f6cdfbd830800000000000000
+      internalID: 4097147316955633648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_177
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 149
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f5d811a4a0137a0800000000000000
+      internalID: -6399322282278428820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_178
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 140
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ce8e9b9c80aaf00800000000000000
+      internalID: 1128724319110229084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_179
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 136
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e106a733c7309a6a0800000000000000
+      internalID: -6437610360374927330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_180
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 133
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6598b98f4e7786b40800000000000000
+      internalID: 5433724775729695062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_181
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 133
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e1dbbb3cb1f3830800000000000000
+      internalID: 4052988717139041835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_182
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 133
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08e2ae93fbbb270800000000000000
+      internalID: 8267411796431634670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_183
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 132
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bccc9f09646f4ba0800000000000000
+      internalID: -6102548567667454792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_184
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 132
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce1f68fde01ff40800000000000000
+      internalID: 5760401751588072511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_185
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07b206106c3ef4f0800000000000000
+      internalID: -793130100986824949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_186
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4060041b5388ef0800000000000000
+      internalID: -105775555843586855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_187
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1be67dfd124a1c0800000000000000
+      internalID: -4493429282933132840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_188
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fdc301811a94350800000000000000
+      internalID: 6001505103171608374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_189
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ae440d396b7e90800000000000000
+      internalID: -7026907082795341336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_190
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da412a6dd4a99e40800000000000000
+      internalID: 5663739277270403800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_191
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 132
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a595c8787908150800000000000000
+      internalID: 5872860522522172017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_192
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 138
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883344be09bea5db0800000000000000
+      internalID: -4802267044982279288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_193
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2aed95b0e4ff840800000000000000
+      internalID: 5260008700451398315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_194
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 138
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c2c33eb6c736f40800000000000000
+      internalID: 5720552754506378320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_195
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 139
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c90e13e724ced90800000000000000
+      internalID: -7067200605481034743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_196
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 108
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1c86de3796382a0800000000000000
+      internalID: -6736424670990909007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_197
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 113
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937c98a3f6bac0760800000000000000
+      internalID: 7425498379838932793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_198
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 107
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd4cd833795b16e0800000000000000
+      internalID: -1865799269204865539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_199
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 114
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde0d04a1ed786030800000000000000
+      internalID: 3488176319471881949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_200
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 114
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd12a3df2a4277330800000000000000
+      internalID: 3708473100614640092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_201
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 114
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32286ec6731750ef0800000000000000
+      internalID: -142583330328116701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_202
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 114
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbc7e37eb2b29ce0800000000000000
+      internalID: -1399860003100701770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_203
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 114
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14241fc9b6c7baf0800000000000000
+      internalID: -380617142144064482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_204
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 114
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b81c29664a637500800000000000000
+      internalID: 392774443156117686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_205
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 115
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3983d7e7177378430800000000000000
+      internalID: 3785054972421159059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_206
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 115
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049d106f235ab1a90800000000000000
+      internalID: -7342093129203197632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_207
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 115
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5b8ce7a1c020910800000000000000
+      internalID: 1802016108837385642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_208
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 114
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a411cf33ffaa640800000000000000
+      internalID: 5092162927433173516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_209
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 114
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3a8e8ff53f0e510800000000000000
+      internalID: 1576527463103112151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_210
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 114
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ba6ef0b9eeb63b0800000000000000
+      internalID: -5518054568658293921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_211
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56509c86ad2266400800000000000000
+      internalID: 316979145232418149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_212
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a52100c67c0a340800000000000000
+      internalID: 4873114063486474838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_213
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 122
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f15476d404f32020800000000000000
+      internalID: 2315962935013560821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_214
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 121
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b904e79b1b22190800000000000000
+      internalID: -7988627378756609278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_215
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8de1169e813a9160800000000000000
+      internalID: 7032988256565325199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_216
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 102
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5470ee4374f42be0800000000000000
+      internalID: -1502807599553153957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_217
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960773b417ede490800000000000000
+      internalID: -7715256510519507301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_218
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ec6e1d09ae15940800000000000000
+      internalID: 5283261745600056936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_219
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9266bab02d81b1c0800000000000000
+      internalID: -4489652181800688994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_220
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00112a01c149a5bf0800000000000000
+      internalID: -334792374026628864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_221
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c8a8c987ccf80d0800000000000000
+      internalID: -3418288773756449730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_222
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648d922e2940a37b0800000000000000
+      internalID: -5243873787213391802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_223
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 98
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b693c65eca1270800000000000000
+      internalID: 8222110941762204687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_224
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 98
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86632765bccf28800800000000000000
+      internalID: 613330449534695016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_225
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 98
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbda4e287f30562b0800000000000000
+      internalID: -5592059000722772549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_226
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d27e87d4de07290800000000000000
+      internalID: -7894549229783798520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_227
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478db9679bbc49af0800000000000000
+      internalID: -390463270255077260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_228
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394295bef04c1c690800000000000000
+      internalID: -7583564724863163245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_229
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 102
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f2a61fb339362e0800000000000000
+      internalID: -2133699912780861692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_230
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 87
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af45257b3fd2fbb80800000000000000
+      internalID: -8376926257109904134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_231
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 88
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086d6504cf2ba3790800000000000000
+      internalID: -7549525028852279680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_232
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a6772956a059260800000000000000
+      internalID: 7103595418612099603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_233
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b884d3fa638e8cb70800000000000000
+      internalID: 8919634383573174411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_234
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3843ba3f7055040800000000000000
+      internalID: 4635620134578586610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_235
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ef0f0cf9446f1b0800000000000000
+      internalID: -5623231631797977526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_236
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4913872dcf61a430800000000000000
+      internalID: 3792435288144550220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_237
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 80
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb418bacaf29c5f0800000000000000
+      internalID: -736004645440107539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_238
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 80
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c991708ba38fc5f10800000000000000
+      internalID: 2259954044112411036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_239
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 80
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e96dfe1a298562a0800000000000000
+      internalID: -6744834052915893789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_240
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab92147d3867587c0800000000000000
+      internalID: -4069716379635209798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_241
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc08ea9d8488555d0800000000000000
+      internalID: -3074401324139380532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_242
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df627499c7903b90800000000000000
+      internalID: -7264139306913861675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_243
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b235c515d97bc70800000000000000
+      internalID: 8986824554207980331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_244
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b609f7501850510800000000000000
+      internalID: 1514758710295030531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_245
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 6
+        width: 129
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc523bc45a98ee30800000000000000
+      internalID: 4533042713925409993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_246
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 6
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52984c74274909cc0800000000000000
+      internalID: -3706299274774673115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_247
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 37
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cef40801e6fc0d0800000000000000
+      internalID: -3400378176490181577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_248
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 37
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6294ce4643d2f7bc0800000000000000
+      internalID: -3783255458913171162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_249
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 37
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a8a4803173a5610800000000000000
+      internalID: 1610660371621382712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_250
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 37
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5526e065f6d439170800000000000000
+      internalID: 8183970088442815061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_251
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 37
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e5d560e97f1ea00800000000000000
+      internalID: 784180068222852620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_252
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 14
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe791ddf432a7e200800000000000000
+      internalID: 209314256176388079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_253
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 14
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd2392ac0db0fda0800000000000000
+      internalID: -5913018448772649512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_254
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 14
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe9dad376e28fce0800000000000000
+      internalID: -1371295065583018251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AhlpaAllSprites-1_255
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 14
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f64f10d6841f400800000000000000
+      internalID: 356145478560411518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

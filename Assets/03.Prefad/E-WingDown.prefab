@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6105040822523178795
+--- !u!1 &3411389286207276642
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6105040822523178799}
-  - component: {fileID: 6105040822523178798}
-  - component: {fileID: 6105040822523178793}
-  - component: {fileID: 6105040822523178792}
+  - component: {fileID: 4378825928987583311}
+  - component: {fileID: 7842333265778908448}
+  - component: {fileID: 2130484283322651020}
+  - component: {fileID: 4246471950095902685}
   m_Layer: 5
   m_Name: EnemyCanvas
   m_TagString: Untagged
@@ -19,13 +19,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &6105040822523178799
+--- !u!224 &4378825928987583311
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6105040822523178795}
+  m_GameObject: {fileID: 3411389286207276642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
@@ -38,34 +38,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!223 &6105040822523178798
+--- !u!223 &7842333265778908448
 Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6105040822523178795}
+  m_GameObject: {fileID: 3411389286207276642}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 1841139365
+  m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_TargetDisplay: 7
---- !u!114 &6105040822523178793
+  m_TargetDisplay: 0
+--- !u!114 &2130484283322651020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6105040822523178795}
+  m_GameObject: {fileID: 3411389286207276642}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
@@ -82,13 +82,13 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!114 &6105040822523178792
+--- !u!114 &4246471950095902685
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6105040822523178795}
+  m_GameObject: {fileID: 3411389286207276642}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
@@ -131,7 +131,7 @@ Transform:
   m_LocalPosition: {x: 6.7, y: -0.2, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6105040822523178799}
+  - {fileID: 4378825928987583311}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -242,9 +242,9 @@ MonoBehaviour:
   Heal: 0
   maxHeal: 10
   objHeal: {fileID: 6151270100507320811, guid: 23ed363d1443473498dde6d5c615ef57, type: 3}
-  prfHpBar: {fileID: 4196501168120000923, guid: 72cd7af9666f020498e1170529cc70bf, type: 3}
-  canvas: {fileID: 6105040822523178795}
-  height: -1.2
+  prfHpBar: {fileID: 8466101116922596456, guid: 9bcb0b5d61a4e5c43a3be17818385c7e, type: 3}
+  canvas: {fileID: 3411389286207276642}
+  height: 1
   enemyName: Enemy
   maxHp: 100
   nowHp: 100

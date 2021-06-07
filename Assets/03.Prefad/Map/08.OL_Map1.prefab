@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 1564334842339697523}
   - component: {fileID: 5981627730110700535}
   - component: {fileID: 869319510504706821}
+  - component: {fileID: 7199948947761944570}
   m_Layer: 0
   m_Name: 08.OL_Map1
   m_TagString: Untagged
@@ -6404,3 +6405,15 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &7199948947761944570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5244103635171967183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc80dbe3b39f9e4d8274286fd728a88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

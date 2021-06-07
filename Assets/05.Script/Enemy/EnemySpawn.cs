@@ -40,7 +40,7 @@ public class EnemySpawn : MonoBehaviour
                 int ranomY = Random.Range(minY, maxY + 1);
                 Instantiate(Enemy, new Vector3(randomX, ranomY, 0), Quaternion.identity);
             }
-            isStart = false;
+            isStart = true;
         }
     }
 }

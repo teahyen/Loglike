@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 2884465983010767965}
   - component: {fileID: 8580726457937087663}
   - component: {fileID: 8024942966433101187}
+  - component: {fileID: -976110865152881052}
   m_Layer: 0
   m_Name: 10.OU_Map1
   m_TagString: Untagged
@@ -6418,3 +6419,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openinDirection: 0
+--- !u!114 &-976110865152881052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729649294376132453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc80dbe3b39f9e4d8274286fd728a88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

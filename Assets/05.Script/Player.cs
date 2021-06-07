@@ -32,7 +32,6 @@ public class Player : MonoBehaviour
     public bool rotate;
     //피격 시 일어나는 함수들
     [SerializeField]
-    private Image playerImg;
     public int hitTime =3;
     public bool ishit =false;
     public CanvasGroup hitRed;

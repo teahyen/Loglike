@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4805342558474782841}
   - component: {fileID: 290096670862455037}
   - component: {fileID: 6563383641520175119}
+  - component: {fileID: -7803964429687588373}
   m_Layer: 0
   m_Name: 00.Map4
   m_TagString: Untagged
@@ -6316,6 +6317,18 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &-7803964429687588373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2288795769246510021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc80dbe3b39f9e4d8274286fd728a88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2932798618097697022
 GameObject:
   m_ObjectHideFlags: 0
@@ -6420,7 +6433,7 @@ GameObject:
   - component: {fileID: 2221876438091508274}
   - component: {fileID: 2656619840088609646}
   - component: {fileID: 8961232215966352443}
-  - component: {fileID: 7471824858630945496}
+  - component: {fileID: 4192158300550720824}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: SpawnPoint
@@ -6489,7 +6502,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7471824858630945496
+--- !u!114 &4192158300550720824
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6498,9 +6511,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3424725697473680229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 836ab761cdbb548469423b89a57c9ecd, type: 3}
+  m_Script: {fileID: 11500000, guid: d15a196a4b9d2a649aebaddcd283e201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openinDirection: 0
 --- !u!1 &4830450909240734273
 GameObject:
   m_ObjectHideFlags: 0
