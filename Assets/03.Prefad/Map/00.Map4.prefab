@@ -6420,7 +6420,7 @@ GameObject:
   - component: {fileID: 2221876438091508274}
   - component: {fileID: 2656619840088609646}
   - component: {fileID: 8961232215966352443}
-  - component: {fileID: 1490655863612928282}
+  - component: {fileID: 7471824858630945496}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: SpawnPoint
@@ -6489,7 +6489,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1490655863612928282
+--- !u!114 &7471824858630945496
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6498,10 +6498,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3424725697473680229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d15a196a4b9d2a649aebaddcd283e201, type: 3}
+  m_Script: {fileID: 11500000, guid: 836ab761cdbb548469423b89a57c9ecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openinDirection: 0
 --- !u!1 &4830450909240734273
 GameObject:
   m_ObjectHideFlags: 0

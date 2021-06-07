@@ -55,9 +55,14 @@ public class RoomSpwner : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.CompareTag("SpawnPoint") && col.GetComponent<RoomSpwner>().spawned == true)
+        if(col.CompareTag("SpawnPoint"))
         {
-            Destroy(gameObject);
+            if(/*col.GetComponent<RoomSpwner>().spawned == false &&*/ spawned == false)
+            {
+                Instantiate(templates.closedRoom, transform.position, Quaternion.identity,grid.transform);
+                Destroy(gameObject);
+            }
+            spawned = true;
         }    
     }
 }

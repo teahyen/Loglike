@@ -50,8 +50,9 @@ public class Enemy : MonoBehaviour
         }
         nowHpbar = hpBar.transform.GetChild(0).GetComponent<Image>();
         attacked = true;
+        
     }
-
+    public EnemySpawn E_spawn;
     private void Update()
     {
         Vector3 _hpBarPos =
@@ -59,7 +60,6 @@ public class Enemy : MonoBehaviour
         hpBar.position = _hpBarPos;
         nowHpbar.fillAmount = (float)nowHp / (float)maxHp;
     }
-
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Sword")&&attacked)
@@ -67,9 +67,8 @@ public class Enemy : MonoBehaviour
             nowHp -= player.atkDmg;
             Debug.Log(nowHp);
             attacked = false;
-
             Vector2 dir = transform.position - col.transform.position;
-
+            E_spawn.countEnemy--;
             rigid2D.AddForce(dir.normalized * nkpower, ForceMode2D.Impulse);
 
             //StartCoroutine(Knockback(nkDur, nkpower));
@@ -77,7 +76,6 @@ public class Enemy : MonoBehaviour
             {
                 Destroy(gameObject);
                 Destroy(hpBar.gameObject);
-                GameManager.Instance.lastenemy--;
                 //StartCoroutine(spawnHeal());
                 //»˙∆— º“»Ø
                 if (Heal < 10)

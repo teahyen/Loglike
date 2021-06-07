@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        if (lastenemy == 0)
-            clear = true;
+        //if (lastenemy == 0)
+        //    clear = true;
     }
 }
