@@ -64,7 +64,7 @@ public class Enemy : MonoBehaviour
         if (col.CompareTag("Sword")&&attacked)
         {
             nowHp -= player.atkDmg;
-            Debug.Log(nowHp);
+            //Debug.Log(nowHp);
             attacked = false;
             Vector2 dir = transform.position - col.transform.position;
             rigid2D.AddForce(dir.normalized * nkpower, ForceMode2D.Impulse);
@@ -73,7 +73,6 @@ public class Enemy : MonoBehaviour
             if (nowHp <= 0)
             {
                 GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
-                print("Àû Ã³Ä¡");
                 //ÈúÆÑ ¼ÒÈ¯
                 if (Heal < 10)
                 {

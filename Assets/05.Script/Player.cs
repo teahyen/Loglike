@@ -60,7 +60,6 @@ public class Player : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && atking == false)
         {
-            Debug.Log("»Ê·Õ»Ç¸¢");
             StartCoroutine(atk());
         }
     }
@@ -76,13 +75,11 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && rotate)
         {
             player.transform.Rotate(new Vector3(0, 180, 0));
-            Debug.Log("µ¹¾Æ°£µå¾Æ¤¿¤¿");
             rotate = false;
         }
         else if (Input.GetKeyDown(KeyCode.F) && !rotate)
         {
             player.transform.Rotate(new Vector3(0, -180, 0));
-            Debug.Log("´Ù½Ã µ¹¾Æ°£µå¾Æ¤¿");
             rotate = true;
         }
         if (rotate == false)
@@ -116,7 +113,6 @@ public class Player : MonoBehaviour
         if (col.CompareTag("Heal"))//&& Input.GetKey(KeyCode.E)
         {
             nowHp += 15;
-            print("Èú °³²Ü");
             Destroy(col.gameObject,1);   
         }
     }
@@ -134,7 +130,6 @@ public class Player : MonoBehaviour
     IEnumerator hit()
     {
         nowHp -= 10;
-        print("¾ÆÆÄ!");
         hitRed.alpha = 1;
         if (nowHp <= 10)
         {

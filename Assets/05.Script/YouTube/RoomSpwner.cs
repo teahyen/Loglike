@@ -57,7 +57,8 @@ public class RoomSpwner : MonoBehaviour
     {
         if(col.CompareTag("SpawnPoint"))
         {
-            if (col.GetComponent<RoomSpwner>().spawned == false && spawned == false)
+            RoomSpwner rs = col.GetComponent<RoomSpwner>();
+            if (rs != null && rs.spawned == false && spawned == false)
             {
                 Instantiate(templates.closedRoom, transform.position, Quaternion.identity, grid.transform);
             }
