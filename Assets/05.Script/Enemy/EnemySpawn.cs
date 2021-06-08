@@ -9,20 +9,20 @@ public class EnemySpawn : MonoBehaviour
     public GameObject grid;
     public int maxX, minX;
     public int maxY, minY;
-    private int countEnemy = 1;
-    public bool clear;
+    public int countEnemy = 1;
     public bool isStart;
+    int E_count;
 
     private void Start()
     {
-        etc.SetActive(true);
-        //etc = GameObject.FindGameObjectWithTag("Etc");
+        countEnemy = Random.Range(4, 6);
     }
     public void Update()
     {
-        if (GameManager.Instance.lastenemy <= 0)
+        if (GameObject.FindGameObjectsWithTag("Enemy") !=null)
         {
-            etc.SetActive(false);
+            GameObject[] a = GameObject.FindGameObjectsWithTag("Enemy");
+            E_count = a.Length;
         }
     }
     public void OnTriggerEnter2D(Collider2D col)
@@ -30,15 +30,25 @@ public class EnemySpawn : MonoBehaviour
         if (!isStart && col.tag == ("Player"))
         {
             Instantiate(etc, transform.position, Quaternion.identity, gameObject.transform);
-            countEnemy = Random.Range(3, 6);
-            GameManager.Instance.lastenemy = countEnemy;
+            etc = GameObject.Find("Etc(Clone)");
             for (int i = 0; i < countEnemy; i++)
             {
                 int randomX = Random.Range(minX, maxX + 1);
                 int ranomY = Random.Range(minY, maxY + 1);
-                Instantiate(enemy, new Vector3(randomX, ranomY, 0), Quaternion.identity);
+                Instantiate(enemy, new Vector3(randomX, ranomY, 0)+transform.position, Quaternion.identity);
             }
             isStart = true;
+        }
+    }
+    public void IsEtc()
+    {
+        countEnemy--;
+        print($"{countEnemy},{E_count}명 남았습니다.");
+        if (countEnemy <= 0 || E_count <=0)
+        {
+            etc = GameObject.Find("Etc(Clone)");
+            Destroy(etc);
+            Destroy(gameObject);
         }
     }
 }

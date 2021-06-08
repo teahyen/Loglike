@@ -54,6 +54,7 @@ MonoBehaviour:
   minX: -7
   maxY: 7
   minY: -7
+  countEnemy: 999
   clear: 0
   isStart: 0
 --- !u!61 &1916209129664391251

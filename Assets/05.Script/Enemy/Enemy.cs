@@ -52,7 +52,6 @@ public class Enemy : MonoBehaviour
         attacked = true;
         
     }
-    public EnemySpawn E_spawn;
     private void Update()
     {
         Vector3 _hpBarPos =
@@ -73,14 +72,15 @@ public class Enemy : MonoBehaviour
             //StartCoroutine(Knockback(nkDur, nkpower));
             if (nowHp <= 0)
             {
-                Destroy(gameObject);
-                Destroy(hpBar.gameObject);
-                GameManager.Instance.lastenemy--;
+                GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
+                print("Àû Ã³Ä¡");
                 //ÈúÆÑ ¼ÒÈ¯
                 if (Heal < 10)
                 {
                     Instantiate(objHeal, transform.position, Quaternion.identity);
                 }
+                Destroy(gameObject);
+                Destroy(hpBar.gameObject);
             }
             attacked = true;
         }
