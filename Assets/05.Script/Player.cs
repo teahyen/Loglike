@@ -38,6 +38,8 @@ public class Player : MonoBehaviour
     [Header("붉은 색인 시간")]
     public float changTime;
 
+    public SpriteRenderer myImg;
+
 
     void SetAttackSpeed(float speed)
     {
@@ -45,6 +47,7 @@ public class Player : MonoBehaviour
     }
     private void Start()
     {
+        myImg = gameObject.GetComponent<SpriteRenderer>();
         Sword.SetActive(false);
         Sword.transform.SetParent(null);
         offset = transform.position - Sword.transform.position;
@@ -127,18 +130,28 @@ public class Player : MonoBehaviour
         atking = false;
     }
     //적에게 맞았을 경우
-    IEnumerator hit()
+    public IEnumerator hit()
     {
+        Color myColor = myImg.color;
         nowHp -= 10;
         hitRed.alpha = 1;
-        if (nowHp <= 10)
+        if (nowHp <= 0)
         {
             SceneManager.LoadScene("GameOver");
         }
         Camera.main.DOShakePosition(3);
-        yield return new WaitForSeconds(changTime);
+        yield return new WaitForSeconds(0.2f);
         hitRed.alpha = 0;
-        yield return new WaitForSeconds(hitTime-changTime);
+        for (int i = 0; i < 5; i++)
+        {
+            myColor.a = 0;
+            myImg.color = myColor;
+            yield return new WaitForSeconds(0.3f);
+            myColor.a = 1;
+            myImg.color = myColor;
+            yield return new WaitForSeconds(0.3f);
+        }
+
         ishit = false;
     }
 }
