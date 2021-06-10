@@ -30,24 +30,14 @@ public class Enemy : MonoBehaviour
     public int nowHp;
     public int atkDmg;
     public int atkSpeed;
-    private void SetEnemyStatus(string _enemyName, int _maxHp, int _atkDmg, int _atkSpeed)
-    {
-        enemyName = _enemyName;
-        maxHp = _maxHp;
-        nowHp = _maxHp;
-        atkDmg = _atkDmg;
-        atkSpeed = _atkSpeed;
-    }
+
+    public EnemySpawn es;
     public Player player;
     Image nowHpbar;
     private void Start()
     {
 
         hpBar = Instantiate(prfHpBar, canvas.transform).GetComponent<RectTransform>();
-        if (name.Equals("E-WingDown"))
-        {
-            SetEnemyStatus("E-WingDown", 100, 10, 1);
-        }
         nowHpbar = hpBar.transform.GetChild(0).GetComponent<Image>();
         attacked = true;
         
@@ -72,7 +62,8 @@ public class Enemy : MonoBehaviour
             //StartCoroutine(Knockback(nkDur, nkpower));
             if (nowHp <= 0)
             {
-                GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
+                //GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
+                es.IsEtc();
                 //»˙∆— º“»Ø
                 if (Heal < 10)
                 {

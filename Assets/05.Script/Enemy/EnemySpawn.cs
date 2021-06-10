@@ -36,7 +36,9 @@ public class EnemySpawn : MonoBehaviour
                 E_count++;
                 int randomX = Random.Range(minX, maxX + 1);
                 int ranomY = Random.Range(minY, maxY + 1);
-                Instantiate(enemy, new Vector3(randomX, ranomY, 0)+transform.position, Quaternion.identity);
+                GameObject e = Instantiate(enemy, new Vector3(randomX, ranomY, 0)+transform.position, Quaternion.identity);
+                Enemy es = e.GetComponent<Enemy>();
+                es.es = this;
             }
             isStart = true;
         }
