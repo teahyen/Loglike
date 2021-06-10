@@ -83,15 +83,6 @@ public class Enemy : MonoBehaviour
         while (timer <= dur)
         {
             timer += Time.deltaTime;
-            if (player.rotate)
-            {
-           
-                //transform.Translate(transform.position - new Vector3(5, 0, 0));
-            }
-            else if (!player.rotate)
-            {
-                //transform.Translate(transform.position - new Vector3(-5, 0, 0));
-            }
         }
         //enemyMove.bPlayerInSightRange = true;
         yield return 0;
