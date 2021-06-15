@@ -60,10 +60,11 @@ public class RoomSpwner : MonoBehaviour
             RoomSpwner rs = col.GetComponent<RoomSpwner>();
             if (rs != null && rs.spawned == false && spawned == false)
             {
-                Instantiate(templates.closedRoom, transform.position, Quaternion.identity, grid.transform);
+                //Instantiate(templates.closedRoom, transform.position, transform.rotation, grid.transform);
+                Destroy(col.gameObject);
+                Destroy(gameObject);
+                spawned = true;
             }
-            Destroy(gameObject);
-            spawned = true;
         }    
     }
 }

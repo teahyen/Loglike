@@ -17,7 +17,7 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
+  - Room
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
   m_SortingLayers:
   - name: BackGround
     uniqueID: 2558312299
+    locked: 0
+  - name: Shell
+    uniqueID: 1860659019
     locked: 0
   - name: UI
     uniqueID: 1841139365
