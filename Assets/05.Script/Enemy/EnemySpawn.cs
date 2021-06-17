@@ -12,19 +12,12 @@ public class EnemySpawn : MonoBehaviour
     public int countEnemy = 1;
     public bool isStart;
     int E_count;
-
+    Enemy ey;
+    public GameObject mimic;
     private void Start()
     {
         countEnemy = Random.Range(4, 6);
     }
-    //public void Update()
-    //{
-    //    if (GameObject.FindGameObjectsWithTag("Enemy") !=null)
-    //    {
-    //        GameObject[] a = GameObject.FindGameObjectsWithTag("Enemy");
-    //        E_count = a.Length;
-    //    }
-    //}
     public void OnTriggerEnter2D(Collider2D col)
     {
         if (!isStart && col.tag == ("Player"))
@@ -43,6 +36,21 @@ public class EnemySpawn : MonoBehaviour
             isStart = true;
         }
     }
+    public void Box()
+    {
+        float whatBox = Random.Range(0, 11);
+        Instantiate(mimic, grid.transform.position, Quaternion.identity);
+        if (whatBox > 0 && whatBox < 6)
+        {
+            //상자 애니메이션
+            print("미믹이 나왔습니다!");
+        }
+        else
+        {
+            //상자 애니메이션
+            print("진짜 상자가 나왔다!");
+        }
+    }
     public void IsEtc()
     {
         E_count--;
@@ -50,6 +58,7 @@ public class EnemySpawn : MonoBehaviour
         if (E_count <= 0)
         {
             etc = GameObject.Find("Etc(Clone)");
+            Box();
             Destroy(etc);
             Destroy(gameObject);
         }

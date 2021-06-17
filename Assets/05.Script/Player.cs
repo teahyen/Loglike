@@ -26,10 +26,8 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private GameObject Sword;
-    private Vector3 offset = Vector3.zero;
-    public bool atking = false;
+    public Vector3 offset;
 
-    public bool rotate;
     //피격 시 일어나는 함수들
     [SerializeField]
     public int hitTime =3;
@@ -41,64 +39,26 @@ public class Player : MonoBehaviour
     public SpriteRenderer myImg;
 
 
-    void SetAttackSpeed(float speed)
-    {
-        atkSpeed = speed;
-    }
-    private void Start()
-    {
-        myImg = gameObject.GetComponent<SpriteRenderer>();
-        Sword.SetActive(false);
-        Sword.transform.SetParent(null);
-        offset = transform.position - Sword.transform.position;
 
-    SetAttackSpeed(1.5f);
-    }
     private void Update()
     {
         nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
         PlayerMove();
         SwordMove();
         //근접 공격
-
-        if (Input.GetMouseButtonDown(0) && atking == false)
-        {
-            StartCoroutine(atk());
-        }
     }
+
 
     private void SwordMove()
     {
         Sword.transform.position = transform.position + offset;
-        Sword.transform.rotation = transform.rotation;
+        //Sword.transform.rotation = transform.rotation;
     }
-
     private void PlayerMove()
     {
-        if (Input.GetKeyDown(KeyCode.F) && rotate)
+        if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
         {
-            player.transform.Rotate(new Vector3(0, 180, 0));
-            rotate = false;
-        }
-        else if (Input.GetKeyDown(KeyCode.F) && !rotate)
-        {
-            player.transform.Rotate(new Vector3(0, -180, 0));
-            rotate = true;
-        }
-        if (rotate == false)
-        {
-            if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
-            {
-                player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
-            }
-
-        }
-        else if (rotate == true)
-        {
-            if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
-            {
-                player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * -speed * Time.deltaTime, 0f, 0f));
-            }
+            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
         }
         if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Vertical") < 0)
         {
@@ -119,16 +79,7 @@ public class Player : MonoBehaviour
             Destroy(col.gameObject,1);   
         }
     }
-    //공격할 경우
-    IEnumerator atk()
-    {
-        Sword.SetActive(true);
-        anim.Play("SwordAnimation");
-        atking = true;
-        yield return new WaitForSeconds(0.5f);
-        Sword.SetActive(false);
-        atking = false;
-    }
+
     //적에게 맞았을 경우
     public IEnumerator hit()
     {
@@ -146,10 +97,10 @@ public class Player : MonoBehaviour
         {
             myColor.a = 0;
             myImg.color = myColor;
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.2f);
             myColor.a = 1;
             myImg.color = myColor;
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.2f);
         }
 
         ishit = false;

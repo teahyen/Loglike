@@ -17,7 +17,6 @@ public class Enemy : MonoBehaviour
 
     public int Heal;
     public int maxHeal = 25;
-    public GameObject objHeal;
     public GameObject prfHpBar;
     public GameObject canvas;
 
@@ -34,6 +33,8 @@ public class Enemy : MonoBehaviour
     public EnemySpawn es;
     public Player player;
     Image nowHpbar;
+
+
     private void Start()
     {
 
@@ -65,17 +66,12 @@ public class Enemy : MonoBehaviour
                 //GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
                 es.IsEtc();
                 //»˙∆— º“»Ø
-                if (Heal < 10)
-                {
-                    Instantiate(objHeal, transform.position, Quaternion.identity);
-                }
                 Destroy(gameObject);
                 Destroy(hpBar.gameObject);
             }
             attacked = true;
         }
     }
-    public EnemyMove enemyMove;
     public IEnumerator Knockback(float dur, float power)
     {
         float timer = 0;

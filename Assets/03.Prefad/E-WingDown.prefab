@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 6105040823307720403}
   - component: {fileID: 6105040823307720402}
   - component: {fileID: 6105040823307720493}
+  - component: {fileID: 5361853962546032669}
   m_Layer: 0
   m_Name: E-WingDown
   m_TagString: Enemy
@@ -175,7 +176,7 @@ SpriteRenderer:
   m_SortingLayerID: 1908547293
   m_SortingLayer: -1
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 607c07120cd03f34db2cacc33e092258, type: 3}
+  m_Sprite: {fileID: -8826038521408486512, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -241,7 +242,6 @@ MonoBehaviour:
   attacked: 0
   Heal: 0
   maxHeal: 10
-  objHeal: {fileID: 6151270100507320811, guid: 23ed363d1443473498dde6d5c615ef57, type: 3}
   prfHpBar: {fileID: 8466101116922596456, guid: 9bcb0b5d61a4e5c43a3be17818385c7e, type: 3}
   canvas: {fileID: 3411389286207276642}
   height: 1
@@ -250,9 +250,10 @@ MonoBehaviour:
   nowHp: 100
   atkDmg: 10
   atkSpeed: 5
+  es: {fileID: 1510101898153932399, guid: f7c7bd0ace8e1ca40964bdd9204b03c3, type: 3}
   player: {fileID: 5458945019570689783, guid: 325c2cadd7600114f88852766a911c62, type: 3}
-  E_spawn: {fileID: 1510101898153932399, guid: f7c7bd0ace8e1ca40964bdd9204b03c3, type: 3}
-  enemyMove: {fileID: 6105040823307720493}
+  mimic: {fileID: 3830284758844154336, guid: db3fb26914a8a5a45ac9c509972b1151, type: 3}
+  objHeal: {fileID: 6151270100507320811, guid: 23ed363d1443473498dde6d5c615ef57, type: 3}
 --- !u!114 &6105040823307720493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,3 +277,22 @@ MonoBehaviour:
   sightRange: 10
   bPlayerInSightRange: 0
   speed: 3
+--- !u!95 &5361853962546032669
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105040823307720492}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd88b9831ef1e8947ad17ebccf11e30e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

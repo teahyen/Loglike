@@ -3,7 +3,12 @@ guid: 1ade6ed6269a7844785eecb37c5d8b28
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - etc: {instanceID: 0}
+  - enemy: {instanceID: 0}
+  - grid: {instanceID: 0}
+  - mimic: {fileID: 3830284758844154336, guid: db3fb26914a8a5a45ac9c509972b1151, type: 3}
+  - objHeal: {fileID: 6151270100507320811, guid: 23ed363d1443473498dde6d5c615ef57, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -46,7 +46,6 @@ MonoBehaviour:
   pos: 3
   shellObj: {fileID: 6100972514977805702, guid: 0d8b5c656a8dbb349ab65c03653526d5, type: 3}
   pointObj: {fileID: 7537295787424863757}
-  sightRange: 0.5
   whatIswall:
     serializedVersion: 2
     m_Bits: 64
@@ -284,7 +283,6 @@ MonoBehaviour:
   pos: 2
   shellObj: {fileID: 6100972514977805702, guid: 0d8b5c656a8dbb349ab65c03653526d5, type: 3}
   pointObj: {fileID: 7537295787424863757}
-  sightRange: 0.5
   whatIswall:
     serializedVersion: 2
     m_Bits: 64
@@ -6199,6 +6197,7 @@ MonoBehaviour:
   minY: -7
   countEnemy: 999
   isStart: 0
+  mimic: {fileID: 3830284758844154336, guid: db3fb26914a8a5a45ac9c509972b1151, type: 3}
 --- !u!61 &7848465577100650732
 BoxCollider2D:
   m_ObjectHideFlags: 0
