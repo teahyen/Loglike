@@ -12,8 +12,11 @@ public class EnemySpawn : MonoBehaviour
     public int countEnemy = 1;
     public bool isStart;
     int E_count;
+
+
     Enemy ey;
     public GameObject mimic;
+    public bool isMimic;
     private void Start()
     {
         countEnemy = Random.Range(4, 6);
@@ -39,15 +42,17 @@ public class EnemySpawn : MonoBehaviour
     public void Box()
     {
         float whatBox = Random.Range(0, 11);
-        Instantiate(mimic, grid.transform.position, Quaternion.identity);
+        GameObject box = Instantiate(mimic,transform.position, Quaternion.identity);
+        Box b = box.GetComponent<Box>();
+
         if (whatBox > 0 && whatBox < 6)
         {
-            //상자 애니메이션
+            b.ismimic = true;
             print("미믹이 나왔습니다!");
         }
         else
         {
-            //상자 애니메이션
+            b.ismimic = false;
             print("진짜 상자가 나왔다!");
         }
     }

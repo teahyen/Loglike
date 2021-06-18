@@ -8,8 +8,9 @@ public class Sword : MonoBehaviour
 
     [SerializeField]
     private GameObject SwordObg;
-    private Vector3 rot;
+    public Vector3 rot;
     bool isAtk = false;
+    bool isSwap;
     //피격 시 일어나는 함수들
     BoxCollider2D Swordcol;
     private void Start()
@@ -17,17 +18,27 @@ public class Sword : MonoBehaviour
         Swordcol = SwordObg.GetComponent<BoxCollider2D>();
         Swordcol.enabled = false;
         SwordObg.transform.SetParent(null);
-        rot = new Vector3(0, 0, -30);
     }
     void Update()
     {
         SwordPos();
+        //if (isSwap&& rot.z < 0) rot *= -1;
+        //else if (!isSwap&& rot.z > 0) rot *= -1;
 
     }
     private void SwordPos()
     {
         if (Input.GetMouseButtonDown(0)&&!isAtk)
         {
+            rot.y = 0;
+            transform.Rotate(rot);
+            StartCoroutine(atk());
+            print("눌림");
+        }
+        else if (Input.GetMouseButtonDown(1) && !isAtk)
+        {
+            rot.y = 180;
+            transform.Rotate(rot);
             StartCoroutine(atk());
             print("눌림");
         }
@@ -36,9 +47,9 @@ public class Sword : MonoBehaviour
     {
         isAtk = true;
         Swordcol.enabled = true;
-        transform.DORotate(rot, 0.4f, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
+        transform.DORotate(rot, 0.6f, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
         //transform.DORotate(rot,3, RotateMode.Fast)/*.SetLoops(-1).SetEase(Ease.Linear)*/;
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.6f);
         Swordcol.enabled = false;
         isAtk = false;
     }

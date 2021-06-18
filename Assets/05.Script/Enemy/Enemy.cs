@@ -65,7 +65,6 @@ public class Enemy : MonoBehaviour
             {
                 //GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
                 es.IsEtc();
-                //»˙∆— º“»Ø
                 Destroy(gameObject);
                 Destroy(hpBar.gameObject);
             }
