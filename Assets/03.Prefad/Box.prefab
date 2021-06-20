@@ -118,6 +118,7 @@ MonoBehaviour:
     m_Bits: 8
   bFindPlayer: 0
   bOpenBox: 0
+  sword: {fileID: 4953671205671448449, guid: 60e99a3d197fab347810bc413ee13e59, type: 3}
   lookRange: 5
   openRange: 3
   ismimic: 0

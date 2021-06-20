@@ -41,20 +41,7 @@ public class EnemySpawn : MonoBehaviour
     }
     public void Box()
     {
-        float whatBox = Random.Range(0, 11);
-        GameObject box = Instantiate(mimic,transform.position, Quaternion.identity);
-        Box b = box.GetComponent<Box>();
-
-        if (whatBox > 0 && whatBox < 6)
-        {
-            b.ismimic = true;
-            print("미믹이 나왔습니다!");
-        }
-        else
-        {
-            b.ismimic = false;
-            print("진짜 상자가 나왔다!");
-        }
+        Instantiate(mimic,transform.position, Quaternion.identity);
     }
     public void IsEtc()
     {

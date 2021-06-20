@@ -332,19 +332,13 @@ MonoBehaviour:
   lastenemy: 5
   swordList:
   - {fileID: 2844452578313835934, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: 8916185851492071779, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: -2340154144556248632, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: 7414790304136828242, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
   - {fileID: -6571889117185917180, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
   - {fileID: -4593591486855959832, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
   - {fileID: -2546514271870465918, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
   - {fileID: 8824427033425027869, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
+  - {fileID: -7428185686212842639, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
+  - {fileID: -3654290791968666354, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
   - {fileID: 1111858738831721221, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: 6411239206781644145, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: -2214765012029593921, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: -3428485365402082051, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: -7665731918213331331, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
-  - {fileID: 3172825165642504699, guid: 3f1f06e6f3e95dc4687087ffd655ef91, type: 3}
 --- !u!4 &436348979
 Transform:
   m_ObjectHideFlags: 0
