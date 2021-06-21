@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Animations;
 using UnityEngine;
 
 public class Box : MonoBehaviour
@@ -13,8 +14,12 @@ public class Box : MonoBehaviour
     public float openRange;
     public bool ismimic;
 
+    public Player player;
+    public Animator box;
+
     private void Start()
     {
+        player = GameObject.Find("Player").GetComponent<Player>();
         sword = GameObject.Find("sword").GetComponent<SpriteRenderer>();
         int whatBox = Random.Range(0, 11);
         if (whatBox < 6)
@@ -41,15 +46,19 @@ public class Box : MonoBehaviour
         {
             if (ismimic)
             {
+                StartCoroutine(player.hit());
+                box.Play("MimicAin");
                 //¹Ì¹Í »ý¼º
             }
             else
             {
+                box.Play("RealBox");
                 int wapon = Random.Range(0, GameManager.Instance.swordList.Count);
                 Debug.Log(wapon);
                 sword.sprite = GameManager.Instance.swordList[wapon];
+                player.nowHp += 10;
             }
-            Destroy(gameObject);
+            Destroy(gameObject,1.4f);
         }
     }
 }

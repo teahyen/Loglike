@@ -2,15 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Animations;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
-
-    [SerializeField]
-    private Animator anim = null;
 
     [SerializeField]
     private float speed;
@@ -26,7 +22,7 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private GameObject Sword;
-    public Vector3 offset;
+    public float x, y, z;
 
     //피격 시 일어나는 함수들
     [SerializeField]
@@ -38,8 +34,9 @@ public class Player : MonoBehaviour
 
     public SpriteRenderer myImg;
 
-
-
+    Vector2 movement;
+    public Animator anim;
+    public SpriteRenderer mySpriteRanderer;
     private void Update()
     {
         nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
@@ -51,19 +48,28 @@ public class Player : MonoBehaviour
 
     private void SwordMove()
     {
-        Sword.transform.position = transform.position + offset;
-        //Sword.transform.rotation = transform.rotation;
+        Sword.transform.position = transform.position + new Vector3(x,y,z);
+
     }
     private void PlayerMove()
     {
-        if (Input.GetAxisRaw("Horizontal") > 0 || Input.GetAxisRaw("Horizontal") < 0)
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
+        if (movement.x > 0 || movement.x < 0)
         {
             player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
         }
-        if (Input.GetAxisRaw("Vertical") > 0 || Input.GetAxisRaw("Vertical") < 0)
+        if (movement.y > 0 || movement.y < 0)
         {
             player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
         }
+        if (movement.y > 0) z = 1;
+        else z = -1;
+        if (movement.x > 0) x = 0.1f;
+        else x = -0.08f;
+        anim.SetFloat("MoveX", movement.x);
+        anim.SetFloat("MoveY", movement.y);
+
     }
 
     private void OnTriggerEnter2D(Collider2D col)

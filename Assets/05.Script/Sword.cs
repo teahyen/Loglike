@@ -10,7 +10,6 @@ public class Sword : MonoBehaviour
     private GameObject SwordObg;
     public Vector3 rot;
     bool isAtk = false;
-    bool isSwap;
     //피격 시 일어나는 함수들
     BoxCollider2D Swordcol;
     private void Start()
@@ -47,10 +46,11 @@ public class Sword : MonoBehaviour
     {
         isAtk = true;
         Swordcol.enabled = true;
-        transform.DORotate(rot, 0.6f, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
+        transform.DORotate(rot, 0.3f, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
         //transform.DORotate(rot,3, RotateMode.Fast)/*.SetLoops(-1).SetEase(Ease.Linear)*/;
-        yield return new WaitForSeconds(0.6f);
-        Swordcol.enabled = false;
+        yield return new WaitForSeconds(0.3f);
         isAtk = false;
+        Swordcol.enabled = false;
+
     }
 }
