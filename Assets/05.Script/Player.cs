@@ -63,8 +63,8 @@ public class Player : MonoBehaviour
         {
             player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
         }
-        if (movement.y > 0) z = 1;
-        else z = -1;
+        if (movement.y > 0) z = 0f;
+        else z = -0.9f;
         if (movement.x > 0) x = 0.1f;
         else x = -0.08f;
         anim.SetFloat("MoveX", movement.x);

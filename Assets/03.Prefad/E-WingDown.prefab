@@ -240,6 +240,7 @@ MonoBehaviour:
   nkpower: 100
   nkDur: 1
   attacked: 0
+  EnemyAni: {fileID: 5361853962546032669}
   Heal: 0
   maxHeal: 10
   prfHpBar: {fileID: 8466101116922596456, guid: 9bcb0b5d61a4e5c43a3be17818385c7e, type: 3}
@@ -252,8 +253,6 @@ MonoBehaviour:
   atkSpeed: 5
   es: {fileID: 1510101898153932399, guid: f7c7bd0ace8e1ca40964bdd9204b03c3, type: 3}
   player: {fileID: 5458945019570689783, guid: 325c2cadd7600114f88852766a911c62, type: 3}
-  mimic: {fileID: 3830284758844154336, guid: db3fb26914a8a5a45ac9c509972b1151, type: 3}
-  objHeal: {fileID: 6151270100507320811, guid: 23ed363d1443473498dde6d5c615ef57, type: 3}
 --- !u!114 &6105040823307720493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,7 +273,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 8
-  sightRange: 10
+  sightRange: 6
   bPlayerInSightRange: 0
   speed: 3
 --- !u!95 &5361853962546032669

@@ -32,15 +32,13 @@ public class Sword : MonoBehaviour
             rot.y = 0;
             transform.Rotate(rot);
             StartCoroutine(atk());
-            print("눌림");
         }
-        else if (Input.GetMouseButtonDown(1) && !isAtk)
-        {
-            rot.y = 180;
-            transform.Rotate(rot);
-            StartCoroutine(atk());
-            print("눌림");
-        }
+        //else if (Input.GetMouseButtonDown(1) && !isAtk)
+        //{
+        //    rot.y = 180;
+        //    transform.Rotate(rot);
+        //    StartCoroutine(atk());
+        //}
     }
     IEnumerator atk()
     {

@@ -12,19 +12,19 @@ public class EnemySpawn : MonoBehaviour
     public int countEnemy = 1;
     public bool isStart;
     int E_count;
-
-
-    Enemy ey;
+    TextSC TS;
     public GameObject mimic;
     public bool isMimic;
     private void Start()
     {
+        TS = GameObject.Find("What?").GetComponent<TextSC>();
         countEnemy = Random.Range(4, 6);
     }
     public void OnTriggerEnter2D(Collider2D col)
     {
         if (!isStart && col.tag == ("Player"))
         {
+            TS.Text("적들을 죽이고 빨리 나가요!");
             Instantiate(etc, transform.position, Quaternion.identity, gameObject.transform);
             etc = GameObject.Find("Etc(Clone)");
             for (int i = 0; i < countEnemy; i++)

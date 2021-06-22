@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Animations;
 
 public class Enemy : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Enemy : MonoBehaviour
     public float nkDur;
 
     public bool attacked = false;
+    public Animator EnemyAni;
 
 
     public int Heal;
@@ -33,7 +35,6 @@ public class Enemy : MonoBehaviour
     public EnemySpawn es;
     public Player player;
     Image nowHpbar;
-
 
     private void Start()
     {
@@ -65,8 +66,13 @@ public class Enemy : MonoBehaviour
             {
                 //GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
                 es.IsEtc();
-                Destroy(gameObject);
-                Destroy(hpBar.gameObject);
+                EnemyAni.Play("EnemyDie");
+                Rigidbody2D rigid = gameObject.GetComponent<Rigidbody2D>();
+                EnemyMove em = gameObject.GetComponent<EnemyMove>();
+                rigid.bodyType = RigidbodyType2D.Static;
+                Destroy(em);
+                Destroy(gameObject,0.35f);
+                Destroy(hpBar.gameObject,0.35f);
             }
             attacked = true;
         }

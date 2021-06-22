@@ -16,21 +16,21 @@ public class Box : MonoBehaviour
 
     public Player player;
     public Animator box;
+    TextSC TS;
 
     private void Start()
     {
+        TS = GameObject.Find("What?").GetComponent<TextSC>();
         player = GameObject.Find("Player").GetComponent<Player>();
         sword = GameObject.Find("sword").GetComponent<SpriteRenderer>();
         int whatBox = Random.Range(0, 11);
         if (whatBox < 6)
         {
             ismimic = true;
-            print("미믹이 나왔습니다!");
         }
         else
         {
             ismimic = false;
-            print("진짜 상자가 나왔다!");
         }
     }
     void Update()
@@ -48,13 +48,13 @@ public class Box : MonoBehaviour
             {
                 StartCoroutine(player.hit());
                 box.Play("MimicAin");
-                //미믹 생성
+                TS.Text("미믹을 조심해ㅋㅋ");
             }
             else
             {
                 box.Play("RealBox");
                 int wapon = Random.Range(0, GameManager.Instance.swordList.Count);
-                Debug.Log(wapon);
+                TS.Text($"오 상자에서 {wapon}번째 무기가 나왔습니다!");
                 sword.sprite = GameManager.Instance.swordList[wapon];
                 player.nowHp += 10;
             }
