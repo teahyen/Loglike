@@ -24,7 +24,7 @@ public class EnemySpawn : MonoBehaviour
     {
         if (!isStart && col.tag == ("Player"))
         {
-            TS.Text("적들을 죽이고 빨리 나가요!");
+            TS.Text("적들을 죽이고 빨리 나가!");
             Instantiate(etc, transform.position, Quaternion.identity, gameObject.transform);
             etc = GameObject.Find("Etc(Clone)");
             for (int i = 0; i < countEnemy; i++)

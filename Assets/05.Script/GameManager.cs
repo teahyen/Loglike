@@ -31,12 +31,5 @@ public class GameManager : MonoBehaviour
     public bool clear = false;
     public int lastenemy;
     public List<Sprite> swordList = new List<Sprite>();
-    private void Start()
-    {
-        
-    }
-    private void Update()
-    { 
-        
-    }
+
 }
