@@ -13,9 +13,27 @@ public class TextSC : MonoBehaviour
     private float time = 3f;
     Coroutine co;
 
+    public Text TimeTex;
+    private float sc;
+    private float min;
+    private float hour;
+
+    public Text stageTex;
+
     private void Start()
     {
-        co = StartCoroutine(GameStart());
+        if(GameManager.Instance.satge == 1)
+        {
+            co = StartCoroutine(GameStart());
+        }
+        else
+        {
+            Text($"지금은 {GameManager.Instance.satge}스테이지 라네");
+            isETC.SetActive(false);
+
+        }
+        stageTex.text = ($"스테이지 {GameManager.Instance.satge}");
+
     }
     public void Update()
     {
@@ -25,11 +43,23 @@ public class TextSC : MonoBehaviour
             myText.text = " ";
             DOTween.KillAll();
             isETC.SetActive(false);
-
         }
+        GameManager.Instance.timeCount += Time.deltaTime;
+        sc = GameManager.Instance.timeCount;
+        min = GameManager.Instance.timeCount / 60;
+        hour = GameManager.Instance.timeCount / 3600;
+        TimeTex.text = ($"{Mathf.Round(hour %= 60).ToString("00")}:{Mathf.Round(min %= 60).ToString("00")}:{Mathf.Round(sc %= 60).ToString("00")}");
+        
     }
+
+    public void Stage(int nowStage)
+    {
+        stageTex.text = ($"스테이지 {nowStage}");
+    }
+
     public void Text(string text)
     {
+        myText.text = " ";
         Sequence dleay = DOTween.Sequence();
         dleay.OnStart(() =>myText.DOText(text, 1.5f));
         dleay.SetDelay(2f);
@@ -64,6 +94,6 @@ public class TextSC : MonoBehaviour
         Text("아 그리고 이 던전엔 적들이 많으니깐 조심하고~");
         isETC.SetActive(false);
         yield return new WaitForSeconds(time);
-        Text("SPACE를 누르면 스킵이 가능합니다 ㅎㅎ");
+        Text("아참 SPACE를 누르면 대화를 스킵할 수 있지");
     }
 }

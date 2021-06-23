@@ -332,7 +332,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I' want go home
+  m_Text: "\uC9D1\uC5D0 \uAC00\uACE0 \uC2F6\uC5B4\uC694"
 --- !u!222 &1336818425
 CanvasRenderer:
   m_ObjectHideFlags: 0

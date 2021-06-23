@@ -26,10 +26,26 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
+        if(instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
     #endregion
+
+    public int maxHp;
+    public int nowHp;
+    public int atkDmg;
+    public float atkSpeed = 1;
+    public float speed;
     public bool clear = false;
+    public int satge = 1;
     public int lastenemy;
     public List<Sprite> swordList = new List<Sprite>();
 
+    public float timeCount;
 }

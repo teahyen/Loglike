@@ -8,16 +8,11 @@ using DG.Tweening;
 public class Player : MonoBehaviour
 {
 
-    [SerializeField]
-    private float speed;
 
     [SerializeField]
     private GameObject player;
 
-    public int maxHp;
-    public int nowHp;
-    public int atkDmg;
-    public float atkSpeed = 1;
+
     public Image nowKpbar;
 
     [SerializeField]
@@ -37,9 +32,11 @@ public class Player : MonoBehaviour
     Vector2 movement;
     public Animator anim;
     public SpriteRenderer mySpriteRanderer;
+
+    public Enemy en;
     private void Update()
     {
-        nowKpbar.fillAmount = (float)nowHp / (float)maxHp;
+        nowKpbar.fillAmount = (float)GameManager.Instance.nowHp / (float)GameManager.Instance.maxHp;
         PlayerMove();
         SwordMove();
         //근접 공격
@@ -57,11 +54,11 @@ public class Player : MonoBehaviour
         movement.y = Input.GetAxis("Vertical");
         if (movement.x > 0 || movement.x < 0)
         {
-            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime, 0f, 0f));
+            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * GameManager.Instance.speed * Time.deltaTime, 0f, 0f));
         }
         if (movement.y > 0 || movement.y < 0)
         {
-            player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * speed * Time.deltaTime, 0f));
+            player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * GameManager.Instance.speed * Time.deltaTime, 0f));
         }
         if (movement.y > 0) z = 0f;
         else z = -0.9f;
@@ -71,28 +68,36 @@ public class Player : MonoBehaviour
         anim.SetFloat("MoveY", movement.y);
 
     }
-
+    //무언가와 닿았다!
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Enemy")&&!ishit)
         {
             ishit = true;
+            en = col.gameObject.GetComponent<Enemy>();
             StartCoroutine(hit());
         }
-        if (col.CompareTag("Heal"))//&& Input.GetKey(KeyCode.E)
-        {
-            nowHp += 15;
-            Destroy(col.gameObject,1);   
-        }
+        //if (col.CompareTag("Heal"))//&& Input.GetKey(KeyCode.E)
+        //{
+        //    GameManager.Instance.nowHp += 15;
+        //    Destroy(col.gameObject,1);   
+        //}
     }
 
     //적에게 맞았을 경우
     public IEnumerator hit()
     {
         Color myColor = myImg.color;
-        nowHp -= 10;
+        if(en == null)
+        {
+            GameManager.Instance.nowHp -= (GameManager.Instance.satge * 30);
+        }
+        else
+        {
+            GameManager.Instance.nowHp -= en.atkDmg;
+        }
         hitRed.alpha = 1;
-        if (nowHp <= 0)
+        if (GameManager.Instance.nowHp <= 0)
         {
             SceneManager.LoadScene("GameOver");
         }

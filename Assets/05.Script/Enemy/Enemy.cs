@@ -42,7 +42,10 @@ public class Enemy : MonoBehaviour
         hpBar = Instantiate(prfHpBar, canvas.transform).GetComponent<RectTransform>();
         nowHpbar = hpBar.transform.GetChild(0).GetComponent<Image>();
         attacked = true;
-        
+        atkDmg += GameManager.Instance.satge*30;
+        maxHp += GameManager.Instance.satge*50;
+        nowHp = maxHp;
+        atkSpeed += GameManager.Instance.satge;
     }
     private void Update()
     {
@@ -55,7 +58,7 @@ public class Enemy : MonoBehaviour
     {
         if (col.CompareTag("Sword")&&attacked)
         {
-            nowHp -= player.atkDmg;
+            nowHp -= GameManager.Instance.atkDmg;
             //Debug.Log(nowHp);
             attacked = false;
             Vector2 dir = transform.position - col.transform.position;

@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6cda88aa225fc4a8287d4dfde58de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vertical: 0
+  vertical: 5
   changeTime: 2
   rigid2D: {fileID: 6105040823307720403}
   timer: 2

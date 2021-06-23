@@ -12,8 +12,11 @@ public class Sword : MonoBehaviour
     bool isAtk = false;
     //피격 시 일어나는 함수들
     BoxCollider2D Swordcol;
+
+    Player Player;
     private void Start()
     {
+        Player = GameObject.Find("Player").GetComponent<Player>();
         Swordcol = SwordObg.GetComponent<BoxCollider2D>();
         Swordcol.enabled = false;
         SwordObg.transform.SetParent(null);
@@ -31,7 +34,7 @@ public class Sword : MonoBehaviour
         {
             rot.y = 0;
             transform.Rotate(rot);
-            StartCoroutine(atk());
+            StartCoroutine(atk(GameManager.Instance.atkSpeed));
         }
         //else if (Input.GetMouseButtonDown(1) && !isAtk)
         //{
@@ -40,13 +43,13 @@ public class Sword : MonoBehaviour
         //    StartCoroutine(atk());
         //}
     }
-    IEnumerator atk()
+    IEnumerator atk(float atkspeed)
     {
         isAtk = true;
         Swordcol.enabled = true;
-        transform.DORotate(rot, 0.3f, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
+        transform.DORotate(rot, atkspeed, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
         //transform.DORotate(rot,3, RotateMode.Fast)/*.SetLoops(-1).SetEase(Ease.Linear)*/;
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(atkspeed);
         isAtk = false;
         Swordcol.enabled = false;
 

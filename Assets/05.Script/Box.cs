@@ -56,15 +56,42 @@ public class Box : MonoBehaviour
             {
                 box.Play("RealBox");
                 int wapon = Random.Range(0, GameManager.Instance.swordList.Count);
-                
-                if (sword.sprite == GameManager.Instance.swordList[wapon])
-                    TS.Text($"엥 뭐야 똑같은 무기 잖아?");
-                
-                else
-                    TS.Text($"오 상자에서 {wapon}번째 무기가 나왔습니다! 개꿀");
-                
+                int whatStat = Random.Range(1, 5);
+                float addStat = Random.Range(1, 10);
+                switch (whatStat)
+                {
+                    case 1:
+                        GameManager.Instance.atkDmg += (int)addStat * 5;
+                        TS.Text($"공격력 {addStat*5}만큼 증가!");
+                        break;
+                    case 2:
+                        if(GameManager.Instance.atkSpeed < 15)
+                        {
+                            GameManager.Instance.speed += addStat / 20;
+                            TS.Text($"이동 속도 {(addStat / 20).ToString("0.0")}만큼 빨라졌다!");
+                        }
+                        else
+                        {
+                            GameManager.Instance.atkSpeed = 0.3f;
+                            TS.Text($"공격 속도 최대로!");
+                        }
+                        break;
+                    case 3:
+                        GameManager.Instance.maxHp += (int)addStat*10;
+                        TS.Text($"최대 체력 {addStat*10}만큼 증가!");
+                        break;
+                    case 4:
+                        GameManager.Instance.nowHp += GameManager.Instance.maxHp/50;
+                        TS.Text($"체력{GameManager.Instance.maxHp/2} 회복");
+                        break;
+                }
+                //if (sword.sprite == GameManager.Instance.swordList[wapon])
+                //    TS.Text($"엥 뭐야 똑같은 무기 잖아?");
+
+                //else
+                //    TS.Text($"오 상자에서 {wapon}번째 무기가 나왔습니다! 개꿀");
                 sword.sprite = GameManager.Instance.swordList[wapon];
-                player.nowHp += 10;
+                GameManager.Instance.nowHp += GameManager.Instance.maxHp/10;
             }
             isopen = true;
             Destroy(gameObject,1.4f);
