@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject player;
 
+    public GameOver GM;
 
     public Image nowKpbar;
 
@@ -29,11 +30,15 @@ public class Player : MonoBehaviour
 
     public SpriteRenderer myImg;
 
+    public Rigidbody2D mycol;
+
     Vector2 movement;
     public Animator anim;
-    public SpriteRenderer mySpriteRanderer;
 
-    public Enemy en;
+    Enemy en;
+
+    public GameObject overCanvas;
+
     private void Update()
     {
         nowKpbar.fillAmount = (float)GameManager.Instance.nowHp / (float)GameManager.Instance.maxHp;
@@ -87,19 +92,27 @@ public class Player : MonoBehaviour
     //적에게 맞았을 경우
     public IEnumerator hit()
     {
+
         Color myColor = myImg.color;
         if(en == null)
         {
+            GameManager.Instance.whokill = 2;
             GameManager.Instance.nowHp -= (GameManager.Instance.satge * 30);
         }
         else
         {
+            GameManager.Instance.whokill = 1;
             GameManager.Instance.nowHp -= en.atkDmg;
         }
         hitRed.alpha = 1;
         if (GameManager.Instance.nowHp <= 0)
         {
+            Image myImage = overCanvas.GetComponent<Image>();
+            myImage.DOFade(1, 3);
+            mycol.mass = 100;
+            yield return new WaitForSeconds(3f);
             SceneManager.LoadScene("GameOver");
+
         }
         Camera.main.DOShakePosition(3);
         yield return new WaitForSeconds(0.2f);

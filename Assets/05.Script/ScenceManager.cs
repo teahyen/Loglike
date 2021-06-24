@@ -5,17 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ScenceManager : MonoBehaviour
 {
+
     public void OnStart()
     {
         SceneManager.LoadScene("StageScenes");
     }
-    public void ReStart()
+
+    public void IsDie()
     {
-        SceneManager.LoadScene("StartScenes");
-        GameManager.Instance.maxHp = 170;
-        GameManager.Instance.nowHp = GameManager.Instance.maxHp;
-        GameManager.Instance.satge = 1;
-        GameManager.Instance.atkDmg = 30;
-        GameManager.Instance.atkSpeed = 0.3f;
+        GameManager.Instance.nowHp = 0;
     }
 }

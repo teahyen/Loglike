@@ -36,6 +36,10 @@ public class GameManager : MonoBehaviour
         }
     }
     #endregion
+    public int MaxStat = 5;
+    public float addAtkSpeed;
+    public float addAtkDmg;
+    public float addMaxHp;
 
     public int maxHp;
     public int nowHp;
@@ -46,6 +50,7 @@ public class GameManager : MonoBehaviour
     public int satge = 1;
     public int lastenemy;
     public List<Sprite> swordList = new List<Sprite>();
-
     public float timeCount;
+
+    public int whokill;
 }
