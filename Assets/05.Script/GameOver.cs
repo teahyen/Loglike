@@ -8,7 +8,7 @@ public class GameOver : MonoBehaviour
 {
     public Text myText;
     public GameObject fadeImg;
-    Image myImage;
+    Image myImage = null;
     private void Start()
     {
         myImage = fadeImg.GetComponent<Image>();

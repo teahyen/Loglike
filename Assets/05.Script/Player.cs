@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject player;
 
+    TextSC TS;
     public GameOver GM;
 
     public Image nowKpbar;
@@ -39,11 +40,20 @@ public class Player : MonoBehaviour
 
     public GameObject overCanvas;
 
+    private void Start()
+    {
+        TS = GameObject.Find("What?").GetComponent<TextSC>();
+    }
     private void Update()
     {
         nowKpbar.fillAmount = (float)GameManager.Instance.nowHp / (float)GameManager.Instance.maxHp;
         PlayerMove();
         SwordMove();
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            TS.Text("저주에 걸렸습니다 당신은 체력이 0이 됨니다.");
+            GameManager.Instance.nowHp = 0;
+        }
         //근접 공격
     }
 
@@ -127,7 +137,6 @@ public class Player : MonoBehaviour
             myImg.color = myColor;
             yield return new WaitForSeconds(0.2f);
         }
-
         ishit = false;
     }
 }
