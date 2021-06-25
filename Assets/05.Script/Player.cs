@@ -108,9 +108,10 @@ public class Player : MonoBehaviour
         if (GameManager.Instance.nowHp <= 0)
         {
             Image myImage = overCanvas.GetComponent<Image>();
-            myImage.DOFade(1, 3);
+            Time.timeScale = 0.2f;
+            myImage.DOFade(1, 1);
             mycol.mass = 100;
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(1f);
             SceneManager.LoadScene("GameOver");
 
         }

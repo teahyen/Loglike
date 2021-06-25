@@ -53,4 +53,8 @@ public class GameManager : MonoBehaviour
     public float timeCount;
 
     public int whokill;
+    private void Start()
+    {
+        Time.timeScale = 1;
+    }
 }

@@ -6,16 +6,28 @@ using UnityEngine.UI;
 using DG.Tweening;
 public class GameOver : MonoBehaviour
 {
-    public Text gameOverTex;
-    public Image myImage;
+    public Text myText;
+    public GameObject fadeImg;
+    Image myImage;
     private void Start()
     {
-        myImage.DOFade(0, 3);
+        myImage = fadeImg.GetComponent<Image>();
+        Time.timeScale = 1;
+        myImage.DOFade(0, 5);
+    }
+    private void Update()
+    {
+        if(myImage.color.a <= 0)
+        {
+            fadeImg.SetActive(false);
+        }
     }
     //1: 잔몹사 2: 미믹사 3: 보스사
-    public void EndGame(int HowKill)
+    public void EndGame()
     {
-        switch (HowKill)
+        Debug.Log("문장이 나와요");
+
+        switch (GameManager.Instance.whokill)
         {
             case 1:
                 OverTex("적에게 당했습니다.");
@@ -32,8 +44,8 @@ public class GameOver : MonoBehaviour
     }
     public void OverTex(string tex)
     {
-        gameOverTex.text = " ";
-        gameOverTex.DOText(tex,3);
+        myText.text = " ";
+        myText.DOText(tex, 1.5f);
     }
     public void ReStart()
     {
