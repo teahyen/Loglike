@@ -85,7 +85,7 @@ public class TextSC : MonoBehaviour
 
         Text("일단 W A S D로 움직일 수 있고 ");
         yield return new WaitForSeconds(time);
-        Text("마우스 좌클릭으로 공격할 수 있어");
+        Text("마우스 좌클릭과 우클릭으로 공격할 수 있어");
 
         yield return new WaitForSeconds(time);
         Text("그럼 출구에서 기다리고 있을께");

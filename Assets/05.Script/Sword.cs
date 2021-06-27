@@ -32,16 +32,17 @@ public class Sword : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)&&!isAtk)
         {
-            rot.y = 0;
-            transform.Rotate(rot);
+            rot.z = 690f;
+            //transform.Rotate(rot);
             StartCoroutine(atk(GameManager.Instance.atkSpeed));
         }
-        //else if (Input.GetMouseButtonDown(1) && !isAtk)
-        //{
-        //    rot.y = 180;
-        //    transform.Rotate(rot);
-        //    StartCoroutine(atk());
-        //}
+        else if (Input.GetMouseButtonDown(1) && !isAtk)
+        {
+            rot.z = -330f;
+            //transform.Rotate(rot);
+            StartCoroutine(atk(GameManager.Instance.atkSpeed));
+
+        }
     }
     IEnumerator atk(float atkspeed)
     {
