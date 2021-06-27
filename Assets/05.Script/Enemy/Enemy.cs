@@ -64,12 +64,12 @@ public class Enemy : MonoBehaviour
             Vector2 dir = transform.position - col.transform.position;
             rigid2D.AddForce(dir.normalized * nkpower, ForceMode2D.Impulse);
 
-            //StartCoroutine(Knockback(nkDur, nkpower));
             if (nowHp <= 0)
             {
-                //GameObject.Find("EnemySpawner").GetComponent<EnemySpawn>().IsEtc();
+
                 es.IsEtc();
                 EnemyAni.Play("EnemyDie");
+                gameObject.tag = "Untagged";
                 Rigidbody2D rigid = gameObject.GetComponent<Rigidbody2D>();
                 EnemyMove em = gameObject.GetComponent<EnemyMove>();
                 rigid.bodyType = RigidbodyType2D.Static;

@@ -49,7 +49,7 @@ public class Box : MonoBehaviour
             {
                 StartCoroutine(player.hit());
                 box.Play("MimicAin");
-                TS.Text("미믹을 조심해ㅋㅋ");
+                TS.Text("아야! 미믹이 나왔다");
                 //데미지를 무한으로 즐겨요 명륜 진사 미믹
             }
             else

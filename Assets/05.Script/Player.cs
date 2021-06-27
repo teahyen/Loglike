@@ -92,11 +92,6 @@ public class Player : MonoBehaviour
             en = col.gameObject.GetComponent<Enemy>();
             StartCoroutine(hit());
         }
-        //if (col.CompareTag("Heal"))//&& Input.GetKey(KeyCode.E)
-        //{
-        //    GameManager.Instance.nowHp += 15;
-        //    Destroy(col.gameObject,1);   
-        //}
     }
 
     //적에게 맞았을 경우

@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour
     }
     private void Update()
     {
-        if(myImage.color.a <= 0)
+        if(myImage.color.a <= 0.3f)
         {
             fadeImg.SetActive(false);
         }
