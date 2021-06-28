@@ -17,6 +17,8 @@ public class Box : MonoBehaviour
 
     public Player player;
     public Animator box;
+
+    public AudioSource openBox;
     TextSC TS;
 
     private void Start()
@@ -45,6 +47,7 @@ public class Box : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F)&&!isopen)
         {
+            openBox.Play();
             if (ismimic)
             {
                 StartCoroutine(player.hit());
@@ -68,11 +71,11 @@ public class Box : MonoBehaviour
                         if(GameManager.Instance.atkSpeed < 15)
                         {
                             GameManager.Instance.speed += addStat / 20;
-                            TS.Text($"이동 속도 {(addStat / 20).ToString("0.0")}만큼 빨라졌다!");
+                            TS.Text($"이동 속도 {(addStat / 10).ToString("0.00")}만큼 빨라졌다!");
                         }
                         else
                         {
-                            GameManager.Instance.atkSpeed = 0.3f;
+                            GameManager.Instance.atkSpeed = 0.1f;
                             TS.Text($"공격 속도 최대로!");
                         }
                         break;
@@ -82,7 +85,7 @@ public class Box : MonoBehaviour
                         break;
                     case 4:
                         GameManager.Instance.nowHp += GameManager.Instance.maxHp/50;
-                        TS.Text($"체력{GameManager.Instance.maxHp/2} 회복");
+                        TS.Text($"체력{GameManager.Instance.maxHp/(2/3)} 회복");
                         break;
                 }
                 //if (sword.sprite == GameManager.Instance.swordList[wapon])

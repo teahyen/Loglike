@@ -71,7 +71,7 @@ public class TextSC : MonoBehaviour
         Text("어이 정신이 드니?");
         yield return new WaitForSeconds(time);
 
-        Text("나는 이 던전의 수호자인데..가만보자...");
+        Text("나는 이 던전의 주인인데..가만보자...");
         yield return new WaitForSeconds(time);
 
         Text("어...그러니깐 나무뿌리에 걸려서 여기에 들어왔네...?");
@@ -80,7 +80,7 @@ public class TextSC : MonoBehaviour
         Text("하...이런 경우는 또 처음인데...");
         yield return new WaitForSeconds(time);
 
-        Text("하지만! 이 던전에 들어온 이상 쉽게 못 나올껄?");
+        Text("이번 경우는 좀 특별하니 내가 좀 도와주지");
         yield return new WaitForSeconds(time);
 
         Text("일단 W A S D로 움직일 수 있고 ");
@@ -92,8 +92,8 @@ public class TextSC : MonoBehaviour
 
         yield return new WaitForSeconds(time);
         Text("아 그리고 이 던전엔 적들이 많으니깐 조심하고~");
-        isETC.SetActive(false);
         yield return new WaitForSeconds(time);
+        isETC.SetActive(false);
         Text("아참 SPACE를 누르면 대화를 스킵할 수 있지");
     }
 }

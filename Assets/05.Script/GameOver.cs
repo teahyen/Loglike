@@ -25,7 +25,6 @@ public class GameOver : MonoBehaviour
     //1: 잔몹사 2: 미믹사 3: 보스사
     public void EndGame()
     {
-        Debug.Log("문장이 나와요");
 
         switch (GameManager.Instance.whokill)
         {
@@ -55,5 +54,6 @@ public class GameOver : MonoBehaviour
         GameManager.Instance.satge = 1;
         GameManager.Instance.atkDmg = 30;
         GameManager.Instance.atkSpeed = 0.3f;
+        GameManager.Instance.timeCount = 0;
     }
 }
