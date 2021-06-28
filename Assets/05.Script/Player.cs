@@ -39,6 +39,8 @@ public class Player : MonoBehaviour
     Enemy en;
 
     public GameObject overCanvas;
+    [Header("게임 소리 끄기")]
+    public AudioSource backGround;
 
     private void Start()
     {
@@ -112,6 +114,7 @@ public class Player : MonoBehaviour
         hitRed.alpha = 1;
         if (GameManager.Instance.nowHp <= 0)
         {
+            backGround.Stop();
             Image myImage = overCanvas.GetComponent<Image>();
             Time.timeScale = 0.2f;
             myImage.DOFade(1, 1);

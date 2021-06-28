@@ -11,6 +11,7 @@ public class Sword : MonoBehaviour
     public Vector3 rot;
     bool isAtk = false;
     //피격 시 일어나는 함수들
+    public AudioSource swordEffect;
     BoxCollider2D Swordcol;
 
     Player Player;
@@ -46,6 +47,7 @@ public class Sword : MonoBehaviour
     }
     IEnumerator atk(float atkspeed)
     {
+        swordEffect.Play();
         isAtk = true;
         Swordcol.enabled = true;
         transform.DORotate(rot, atkspeed, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
@@ -53,6 +55,5 @@ public class Sword : MonoBehaviour
         yield return new WaitForSeconds(atkspeed);
         isAtk = false;
         Swordcol.enabled = false;
-
     }
 }

@@ -34,6 +34,9 @@ public class Enemy : MonoBehaviour
 
     public EnemySpawn es;
     public Player player;
+
+    [Header("맞으면 나는 소리")]
+    public AudioSource hitSound;
     Image nowHpbar;
 
     private void Start()
@@ -63,10 +66,9 @@ public class Enemy : MonoBehaviour
             attacked = false;
             Vector2 dir = transform.position - col.transform.position;
             rigid2D.AddForce(dir.normalized * nkpower, ForceMode2D.Impulse);
-
+            hitSound.Play();
             if (nowHp <= 0)
             {
-
                 es.IsEtc();
                 EnemyAni.Play("EnemyDie");
                 gameObject.tag = "Untagged";
