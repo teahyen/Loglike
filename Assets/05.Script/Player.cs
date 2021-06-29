@@ -49,8 +49,12 @@ public class Player : MonoBehaviour
     private void Update()
     {
         nowKpbar.fillAmount = (float)GameManager.Instance.nowHp / (float)GameManager.Instance.maxHp;
-        PlayerMove();
-        SwordMove();
+        if(!Setting.isActive && !GameManager.Instance.isDie)
+        {
+            PlayerMove();
+            SwordMove();
+        }
+
         if (Input.GetKeyDown(KeyCode.K))
         {
             TS.Text("저주에 걸렸습니다 당신은 체력이 0이 됨니다.");
@@ -114,6 +118,7 @@ public class Player : MonoBehaviour
         hitRed.alpha = 1;
         if (GameManager.Instance.nowHp <= 0)
         {
+            GameManager.Instance.isDie = true;
             backGround.Stop();
             Image myImage = overCanvas.GetComponent<Image>();
             Time.timeScale = 0.2f;

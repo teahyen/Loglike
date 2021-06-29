@@ -24,6 +24,7 @@ public class Sword : MonoBehaviour
     }
     void Update()
     {
+        if(!Setting.isActive && !GameManager.Instance.isDie)
         SwordPos();
         //if (isSwap&& rot.z < 0) rot *= -1;
         //else if (!isSwap&& rot.z > 0) rot *= -1;

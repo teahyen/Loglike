@@ -59,16 +59,16 @@ public class TextSC : MonoBehaviour
 
     public void Text(string text)
     {
-        myText.text = " ";
+        myText.DOText(" ", 0);
         Sequence dleay = DOTween.Sequence();
         dleay.OnStart(() =>myText.DOText(text, 1.5f));
-        dleay.SetDelay(2f);
+        dleay.SetDelay(2.5f);
         dleay.Append(myText.DOText(" ",0));
     }
     IEnumerator GameStart()
     {
 
-        Text("어이 정신이 드니?");
+        Text("어이 정신은 드나?");
         yield return new WaitForSeconds(time);
 
         Text("나는 이 던전의 주인인데..가만보자...");
@@ -88,10 +88,7 @@ public class TextSC : MonoBehaviour
         Text("마우스 좌클릭과 우클릭으로 공격할 수 있어");
 
         yield return new WaitForSeconds(time);
-        Text("그럼 출구에서 기다리고 있을께");
-
-        yield return new WaitForSeconds(time);
-        Text("아 그리고 이 던전엔 적들이 많으니깐 조심하고~");
+        Text("아 그리고 이 던전엔 적들이 많으니깐 조심해");
         yield return new WaitForSeconds(time);
         isETC.SetActive(false);
         Text("아참 SPACE를 누르면 대화를 스킵할 수 있지");
