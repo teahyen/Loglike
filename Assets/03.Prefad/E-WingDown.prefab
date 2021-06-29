@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigid2D: {fileID: 6105040823307720403}
-  nkpower: 100
+  nkpower: 90
   nkDur: 1
   attacked: 0
   EnemyAni: {fileID: 5361853962546032669}
@@ -275,7 +275,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 8
-  sightRange: 6
+  sightRange: 12
   bPlayerInSightRange: 0
   speed: 3
 --- !u!95 &5361853962546032669
