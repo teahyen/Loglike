@@ -13,10 +13,11 @@ public class CameraMove : MonoBehaviour
     private float followDur = 1f;
     [Header("¿ÀÇÁ¼Â")]
     [SerializeField]
-    private Vector2 offset = Vector2.zero;
+    private Vector3 offset = Vector3.zero;
     private Vector3 targetDir;
     private void FixedUpdate()
     {
+
         FollowTarget();
     }
     void FollowTarget()

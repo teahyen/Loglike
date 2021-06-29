@@ -29,8 +29,8 @@ public class EnemySpawn : MonoBehaviour
             for (int i = 0; i < countEnemy; i++)
             {
                 E_count++;
-                int randomX = Random.Range(minX, maxX + 1);
-                int ranomY = Random.Range(minY, maxY + 1);
+                int randomX = Random.Range(minX, maxX);
+                int ranomY = Random.Range(minY, maxY);
                 GameObject e = Instantiate(enemy, new Vector3(randomX, ranomY, 0)+transform.position, Quaternion.identity);
                 Enemy es = e.GetComponent<Enemy>();
                 es.es = this;
@@ -48,7 +48,6 @@ public class EnemySpawn : MonoBehaviour
         print(E_count);
         if (E_count <= 0)
         {
-            TS.Text("상자가 나왔습니다.");
             etc = GameObject.Find("Etc(Clone)");
             Box();
             Destroy(etc);

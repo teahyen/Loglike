@@ -21,6 +21,12 @@ public class Box : MonoBehaviour
     public AudioSource openBox;
     TextSC TS;
 
+        [Header("상자열때 파티클")]
+    public ParticleSystem DmgUp;
+    public ParticleSystem SpeedUp;
+    public ParticleSystem MaxHpUp;
+    public ParticleSystem Heal;
+
     private void Start()
     {
         TS = GameObject.Find("What?").GetComponent<TextSC>();
@@ -48,7 +54,7 @@ public class Box : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F)&&!isopen)
         {
             openBox.Play();
-            if (ismimic)
+            if (ismimic&&!player.ishit)
             {
                 StartCoroutine(player.hit());
                 box.Play("MimicAin");
@@ -66,6 +72,7 @@ public class Box : MonoBehaviour
                     case 1:
                         GameManager.Instance.atkDmg += (int)addStat * 5;
                         TS.Text($"공격력 {addStat*5}만큼 증가!");
+                        player.WhatParticle(1);
                         break;
                     case 2:
                         if(GameManager.Instance.atkSpeed < 15)
@@ -78,14 +85,17 @@ public class Box : MonoBehaviour
                             GameManager.Instance.atkSpeed = 0.1f;
                             TS.Text($"공격 속도 최대로!");
                         }
+                        player.WhatParticle(2);
                         break;
                     case 3:
                         GameManager.Instance.maxHp += (int)addStat*10;
                         TS.Text($"최대 체력 {addStat*10}만큼 증가!");
+                        player.WhatParticle(3);
                         break;
                     case 4:
-                        GameManager.Instance.nowHp += GameManager.Instance.maxHp/50;
-                        TS.Text($"체력{GameManager.Instance.maxHp/(2/3)} 회복");
+                        GameManager.Instance.nowHp += GameManager.Instance.maxHp/2;
+                        TS.Text($"체력{GameManager.Instance.maxHp/2} 회복");
+                        player.WhatParticle(4);
                         break;
                 }
                 //if (sword.sprite == GameManager.Instance.swordList[wapon])

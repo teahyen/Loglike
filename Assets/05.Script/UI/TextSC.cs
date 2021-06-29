@@ -20,6 +20,8 @@ public class TextSC : MonoBehaviour
 
     public Text stageTex;
 
+    public Text myHp;
+
     private void Start()
     {
         if(GameManager.Instance.satge == 1)
@@ -49,6 +51,7 @@ public class TextSC : MonoBehaviour
         min = GameManager.Instance.timeCount / 60;
         hour = GameManager.Instance.timeCount / 3600;
         TimeTex.text = ($"{Mathf.Round(hour %= 60).ToString("00")}:{Mathf.Round(min %= 60).ToString("00")}:{Mathf.Round(sc %= 60).ToString("00")}");
+        myHp.text = ($"{GameManager.Instance.nowHp} / {GameManager.Instance.maxHp}");
         
     }
 

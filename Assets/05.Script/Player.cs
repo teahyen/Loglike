@@ -42,6 +42,19 @@ public class Player : MonoBehaviour
     [Header("게임 소리 끄기")]
     public AudioSource backGround;
 
+    [Header("상자열때 파티클")]
+    //whatParticle -> 1
+    public ParticleSystem DmgUp;
+
+    //whatParticle -> 2
+    public ParticleSystem SpeedUp;
+    
+    //whatParticle -> 3
+    public ParticleSystem MaxHpUp;
+    
+    //whatParticle -> 4
+    public ParticleSystem Heal;
+
     private void Start()
     {
         TS = GameObject.Find("What?").GetComponent<TextSC>();
@@ -62,8 +75,25 @@ public class Player : MonoBehaviour
         }
         //근접 공격
     }
-
-
+    //파티클 참고
+    public void WhatParticle(int num)
+    {
+        switch (num)
+        {
+            case 1:
+                DmgUp.Play();
+                break;
+            case 2:
+                SpeedUp.Play();
+                break;
+            case 3:
+                MaxHpUp.Play();
+                break;
+            case 4:
+                Heal.Play();
+                break;
+        }
+    }
     private void SwordMove()
     {
         Sword.transform.position = transform.position + new Vector3(x,y,z);
@@ -94,7 +124,6 @@ public class Player : MonoBehaviour
     {
         if (col.CompareTag("Enemy")&&!ishit)
         {
-            ishit = true;
             en = col.gameObject.GetComponent<Enemy>();
             StartCoroutine(hit());
         }
@@ -103,7 +132,7 @@ public class Player : MonoBehaviour
     //적에게 맞았을 경우
     public IEnumerator hit()
     {
-
+        ishit = true;
         Color myColor = myImg.color;
         if(en == null)
         {

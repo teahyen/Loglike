@@ -58,4 +58,11 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+    private void Update()
+    {
+        if(nowHp > maxHp)
+        {
+            nowHp = maxHp;
+        }
+    }
 }
