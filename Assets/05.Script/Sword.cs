@@ -13,10 +13,11 @@ public class Sword : MonoBehaviour
     //피격 시 일어나는 함수들
     public AudioSource swordEffect;
     BoxCollider2D Swordcol;
-
+    public GameObject Effect;
     Player Player;
     private void Start()
     {
+        Effect.SetActive(false);
         Player = GameObject.Find("Player").GetComponent<Player>();
         Swordcol = SwordObg.GetComponent<BoxCollider2D>();
         Swordcol.enabled = false;
@@ -26,9 +27,6 @@ public class Sword : MonoBehaviour
     {
         if(!Setting.isActive && !GameManager.Instance.isDie)
         SwordPos();
-        //if (isSwap&& rot.z < 0) rot *= -1;
-        //else if (!isSwap&& rot.z > 0) rot *= -1;
-
     }
     private void SwordPos()
     {
@@ -50,11 +48,28 @@ public class Sword : MonoBehaviour
     {
         swordEffect.Play();
         isAtk = true;
+        Effect.SetActive(true);
         Swordcol.enabled = true;
         transform.DORotate(rot, atkspeed, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
-        //transform.DORotate(rot,3, RotateMode.Fast)/*.SetLoops(-1).SetEase(Ease.Linear)*/;
         yield return new WaitForSeconds(atkspeed);
         isAtk = false;
         Swordcol.enabled = false;
+        StartCoroutine(IsEffect());
+
+    }
+    public IEnumerator IsEffect()
+    {
+        yield return new WaitForSeconds(0.2f);
+
+        if (isAtk)
+        {
+            Effect.SetActive(true);
+            StartCoroutine(IsEffect());
+        }
+        else
+        {
+            Effect.SetActive(false);
+            Debug.Log("불끄기");
+        }
     }
 }
