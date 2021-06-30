@@ -52,14 +52,14 @@ public class Sword : MonoBehaviour
         Swordcol.enabled = true;
         transform.DORotate(rot, atkspeed, RotateMode.FastBeyond360).SetEase(Ease.InOutExpo);
         yield return new WaitForSeconds(atkspeed);
+        StartCoroutine(IsEffect());
         isAtk = false;
         Swordcol.enabled = false;
-        StartCoroutine(IsEffect());
 
     }
     public IEnumerator IsEffect()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
 
         if (isAtk)
         {
@@ -69,7 +69,6 @@ public class Sword : MonoBehaviour
         else
         {
             Effect.SetActive(false);
-            Debug.Log("ºÒ²ô±â");
         }
     }
 }

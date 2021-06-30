@@ -22,15 +22,21 @@ public class Setting : MonoBehaviour
     public static bool isActive =false;
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         isActive = false;
         settingPenal.SetActive(false);
-        SoundBarBGM.value = 0.8f;
-        swingSoundBar.value = 0.8f;
-        enemySoundBar.value = 0.8f;
+        SoundBarBGM.value = GameManager.Instance.BGMNum ;
+        swingSoundBar.value = GameManager.Instance.PlayerNum;
+        enemySoundBar.value = GameManager.Instance.EnemyNum;
     }
 
     void Update()
     {
+
+        GameManager.Instance.BGMNum = SoundBarBGM.value;
+        GameManager.Instance.PlayerNum = swingSoundBar.value ;
+        GameManager.Instance.EnemyNum = enemySoundBar.value;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
 
@@ -39,12 +45,16 @@ public class Setting : MonoBehaviour
                 Time.timeScale = 0;
                 settingPenal.SetActive(true);
                 isActive = true;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
             }
             else
             {
                 Time.timeScale = 1;
                 settingPenal.SetActive(false);
                 isActive = false;
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
             }
         }
         //BGM사운드
@@ -66,6 +76,8 @@ public class Setting : MonoBehaviour
         Time.timeScale = 1;
         settingPenal.SetActive(false);
         isActive = false;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
     //다시하기
     public void ReStart()
@@ -78,6 +90,8 @@ public class Setting : MonoBehaviour
         GameManager.Instance.atkSpeed = 0.3f;
         GameManager.Instance.timeCount = 0;
         Time.timeScale = 1;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
     //나가기
     public void Exit()

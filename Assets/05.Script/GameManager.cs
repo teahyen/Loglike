@@ -54,6 +54,11 @@ public class GameManager : MonoBehaviour
 
     public int whokill;
     public bool isDie = false;
+
+    [Header("소리값 유지")]
+    public float BGMNum = 0.5f;
+    public float PlayerNum = 0.5f;
+    public float EnemyNum = 0.5f;
     private void Start()
     {
         Time.timeScale = 1;

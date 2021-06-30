@@ -55,5 +55,6 @@ public class GameOver : MonoBehaviour
         GameManager.Instance.atkDmg = 30;
         GameManager.Instance.atkSpeed = 0.3f;
         GameManager.Instance.timeCount = 0;
+        GameManager.Instance.isDie = false;
     }
 }
