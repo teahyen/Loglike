@@ -73,7 +73,7 @@ public class Box : MonoBehaviour
                 {
                     case 1:
                         GameManager.Instance.atkDmg += (int)addStat * 3;
-                        TS.Text($"공격력 {addStat*5}만큼 증가!");
+                        TS.Text($"공격력 {addStat*3}만큼 증가!");
                         PlaySound(DmgUpSound);
                         player.WhatParticle(1);
                         break;
@@ -81,7 +81,7 @@ public class Box : MonoBehaviour
                         if(GameManager.Instance.speed < 15)
                         {
                             GameManager.Instance.speed += addStat / 20;
-                            TS.Text($"이동 속도 {(addStat / 10).ToString("0.00")}만큼 빨라졌다!");
+                            TS.Text($"이동 속도 {(addStat / 20).ToString("0.00")}만큼 빨라졌다!");
                             PlaySound(SpeedUpSound);
                         }
                         else

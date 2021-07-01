@@ -5621,6 +5621,7 @@ MonoBehaviour:
   countEnemy: 999
   isStart: 0
   mimic: {fileID: 3830284758844154336, guid: db3fb26914a8a5a45ac9c509972b1151, type: 3}
+  isMimic: 0
 --- !u!61 &5435064578772498088
 BoxCollider2D:
   m_ObjectHideFlags: 0

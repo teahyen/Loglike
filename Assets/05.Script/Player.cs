@@ -102,17 +102,10 @@ public class Player : MonoBehaviour
     }
     private void PlayerMove()
     {
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
-        player.transform.Translate( movement.normalized * GameManager.Instance.speed * Time.deltaTime );
-        //if (movement.x > 0 || movement.x < 0)
-        //{
-            
-        //}
-        //if (movement.y > 0 || movement.y < 0)
-        //{
-        //    player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * GameManager.Instance.speed * Time.deltaTime, 0f).normalized);
-        //}
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+            player.transform.Translate(movement.normalized * GameManager.Instance.speed * Time.deltaTime);
+
         if (movement.y > 0) z = 0f;
         else z = -0.9f;
         if (movement.x > 0) x = 0.1f;
