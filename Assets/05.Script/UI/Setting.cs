@@ -20,8 +20,16 @@ public class Setting : MonoBehaviour
     public AudioSource enemySound;
     public Text enemySoundTex;
     public static bool isActive =false;
+    [Header("커멘트 관룐")]
+    public GameObject commandObj;
+    public GameObject player;
+    public bool iscommand = false;
+    public InputField whatTex;
+    public Text[] reportTex = new Text[6];
+
     void Start()
     {
+        commandObj.SetActive(false);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         isActive = false;
@@ -33,11 +41,10 @@ public class Setting : MonoBehaviour
 
     void Update()
     {
-
         GameManager.Instance.BGMNum = SoundBarBGM.value;
         GameManager.Instance.PlayerNum = swingSoundBar.value ;
         GameManager.Instance.EnemyNum = enemySoundBar.value;
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape)&&!iscommand)
         {
 
             if (!isActive)
@@ -69,15 +76,41 @@ public class Setting : MonoBehaviour
         enemySound.volume = enemySoundBar.value;
         enemySoundTex.text = (enemySoundBar.value * 100).ToString("N0");
 
+        //커멘드 관련
+        if (Input.GetKeyDown(KeyCode.Tab) &&!isActive)
+        {
+            if (!iscommand)
+            {
+                commandObj.SetActive(true);
+                iscommand = true;
+                Time.timeScale = 0;
+                whatTex.ActivateInputField();
+            }
+            else if(iscommand)
+            {
+                commandObj.SetActive(false);
+                iscommand = false;
+                Time.timeScale = 1;
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+
+        }
+        if (whatTex.isFocused && whatTex.text != "" && Input.GetKey(KeyCode.Return) || Input.GetKey(KeyCode.KeypadEnter) && whatTex.text != "적용되었습니다.")
+        {
+            apply();
+        }
     }
+    #region 설정창
     //계속하기
     public void Con()
     {
         Time.timeScale = 1;
         settingPenal.SetActive(false);
         isActive = false;
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
     }
     //다시하기
     public void ReStart()
@@ -90,8 +123,8 @@ public class Setting : MonoBehaviour
         GameManager.Instance.atkSpeed = 0.3f;
         GameManager.Instance.timeCount = 0;
         Time.timeScale = 1;
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
     //나가기
     public void Exit()
@@ -102,5 +135,58 @@ public class Setting : MonoBehaviour
         Application.Quit();
 #endif
     }
+    #endregion
+    #region 커멘드
+
+    public void apply()
+    {
+        for (int i = 5; i >= 1; i--)
+        {
+            reportTex[i].text = reportTex[i - 1].text;
+        }
+        reportTex[0].text = whatTex.text;
+        string t = whatTex.text;
+        if (whatTex.text.Contains("/DmgUp"))
+        {
+            t = t.Replace("/DmgUp", "");
+            whatTex.text = t;
+            GameManager.Instance.atkDmg += int.Parse(t);
+            whatTex.text = "적용되었습니다.";
+            Debug.Log("공격력증가");
+        }
+        else if (whatTex.text.Contains("/SpeedUp"))
+        {
+            t = t.Replace("/SpeedUp", "");
+            GameManager.Instance.speed += float.Parse(t);
+            whatTex.text = "적용되었습니다.";
+            Debug.Log("이속증가");
+
+        }
+        else if (whatTex.text.Contains("/MaxHpUp"))
+        {
+            t = t.Replace("/MaxHpUp", "");
+            GameManager.Instance.maxHp += int.Parse(t);
+            whatTex.text = "적용되었습니다.";
+            Debug.Log("최대 체력증가");
+        }
+        else if (whatTex.text.Contains("/Heal"))
+        {
+            t = t.Replace("/Heal", "");
+            whatTex.text = whatTex.text.Replace("/Heal", "");
+            GameManager.Instance.nowHp += int.Parse(whatTex.text);
+            whatTex.text = "적용되었습니다.";
+            Debug.Log("체력회복");
+        }
+        else if (whatTex.text.Contains("/BossRoom"))
+        {
+            GameObject Boss = GameObject.Find("EndDoor(Clone)");
+            player.transform.position = Boss.transform.position;
+        }
+        else
+        {
+            whatTex.text = "";
+        }
+    }
+    #endregion
 }
 

@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
     private GameObject player;
 
     TextSC TS;
-    public GameOver GM;
 
     public Image nowKpbar;
 
@@ -54,6 +53,8 @@ public class Player : MonoBehaviour
     
     //whatParticle -> 4
     public ParticleSystem Heal;
+    [Header("피격 사운드")]
+    public AudioSource hitSound;
 
     private void Start()
     {
@@ -70,8 +71,8 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            TS.Text("저주에 걸렸습니다 당신은 체력이 0이 됨니다.");
-            GameManager.Instance.nowHp = 0;
+            TS.Text("저주에 걸렸습니다 당신은 체력이 1이 됨니다.");
+            GameManager.Instance.nowHp = 1;
         }
         //근접 공격
     }
@@ -105,11 +106,11 @@ public class Player : MonoBehaviour
         movement.y = Input.GetAxis("Vertical");
         if (movement.x > 0 || movement.x < 0)
         {
-            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * GameManager.Instance.speed * Time.deltaTime, 0f, 0f));
+            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * GameManager.Instance.speed * Time.deltaTime, 0f, 0f).normalized);
         }
         if (movement.y > 0 || movement.y < 0)
         {
-            player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * GameManager.Instance.speed * Time.deltaTime, 0f));
+            player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * GameManager.Instance.speed * Time.deltaTime, 0f).normalized);
         }
         if (movement.y > 0) z = 0f;
         else z = -0.9f;
@@ -120,7 +121,7 @@ public class Player : MonoBehaviour
 
     }
     //무언가와 닿았다!
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerStay2D(Collider2D col)
     {
         if (col.CompareTag("Enemy")&&!ishit)
         {
@@ -132,6 +133,7 @@ public class Player : MonoBehaviour
     //적에게 맞았을 경우
     public IEnumerator hit()
     {
+        hitSound.Play();
         ishit = true;
         Color myColor = myImg.color;
         if(en == null)
@@ -153,6 +155,8 @@ public class Player : MonoBehaviour
             Time.timeScale = 0.2f;
             myImage.DOFade(1, 1);
             mycol.mass = 100;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             yield return new WaitForSeconds(1f);
             SceneManager.LoadScene("GameOver");
 

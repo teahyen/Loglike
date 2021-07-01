@@ -201,8 +201,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.19331142}
-  m_Size: {x: 1.6698198, y: 1.6698198}
+  m_Offset: {x: 0.0032298565, y: 0.005979717}
+  m_Size: {x: 0.83651686, y: 1.2951564}
   m_Direction: 0
 --- !u!50 &6105040823307720403
 Rigidbody2D:
@@ -309,7 +309,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e91071b9d2c3df64a967dae8fd27f7e2, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -317,7 +317,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 5.4028807
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

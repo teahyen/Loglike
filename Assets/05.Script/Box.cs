@@ -19,13 +19,15 @@ public class Box : MonoBehaviour
     public Animator box;
 
     public AudioSource openBox;
-    TextSC TS;
+    [Header("상자열때 사운드")]
+    public AudioSource InputSound;
+    public AudioClip mimicSound;
+    public AudioClip DmgUpSound;
+    public AudioClip SpeedUpSound;
+    public AudioClip MaxUpSound;
+    public AudioClip HealSound;
 
-        [Header("상자열때 파티클")]
-    public ParticleSystem DmgUp;
-    public ParticleSystem SpeedUp;
-    public ParticleSystem MaxHpUp;
-    public ParticleSystem Heal;
+    TextSC TS;
 
     private void Start()
     {
@@ -72,6 +74,7 @@ public class Box : MonoBehaviour
                     case 1:
                         GameManager.Instance.atkDmg += (int)addStat * 5;
                         TS.Text($"공격력 {addStat*5}만큼 증가!");
+                        PlaySound(DmgUpSound);
                         player.WhatParticle(1);
                         break;
                     case 2:
@@ -79,6 +82,7 @@ public class Box : MonoBehaviour
                         {
                             GameManager.Instance.speed += addStat / 20;
                             TS.Text($"이동 속도 {(addStat / 10).ToString("0.00")}만큼 빨라졌다!");
+                            PlaySound(SpeedUpSound);
                         }
                         else
                         {
@@ -90,11 +94,13 @@ public class Box : MonoBehaviour
                     case 3:
                         GameManager.Instance.maxHp += (int)addStat*10;
                         TS.Text($"최대 체력 {addStat*10}만큼 증가!");
+                        PlaySound(MaxUpSound);
                         player.WhatParticle(3);
                         break;
                     case 4:
                         GameManager.Instance.nowHp += GameManager.Instance.maxHp/2;
                         TS.Text($"체력{GameManager.Instance.maxHp/2} 회복");
+                        PlaySound(HealSound);
                         player.WhatParticle(4);
                         break;
                 }
@@ -109,5 +115,10 @@ public class Box : MonoBehaviour
             isopen = true;
             Destroy(gameObject,1.4f);
         }
+    }
+    public void PlaySound(AudioClip nowSound)
+    {
+        InputSound.clip = nowSound;
+        InputSound.Play();
     }
 }

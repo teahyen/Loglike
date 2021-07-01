@@ -29,8 +29,8 @@ public class EnemySpawn : MonoBehaviour
             for (int i = 0; i < countEnemy; i++)
             {
                 E_count++;
-                int randomX = Random.Range(minX, maxX);
-                int ranomY = Random.Range(minY, maxY);
+                int randomX = Random.Range(minX, maxX-1);
+                int ranomY = Random.Range(minY, maxY-1);
                 GameObject e = Instantiate(enemy, new Vector3(randomX, ranomY, 0)+transform.position, Quaternion.identity);
                 Enemy es = e.GetComponent<Enemy>();
                 es.es = this;
