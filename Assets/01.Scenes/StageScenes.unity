@@ -1378,7 +1378,7 @@ MonoBehaviour:
   nowHp: 170
   atkDmg: 30
   atkSpeed: 0.5
-  speed: 6
+  speed: 10
   clear: 1
   satge: 1
   lastenemy: 5

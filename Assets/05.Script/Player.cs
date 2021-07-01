@@ -104,14 +104,15 @@ public class Player : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
-        if (movement.x > 0 || movement.x < 0)
-        {
-            player.transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * GameManager.Instance.speed * Time.deltaTime, 0f, 0f).normalized);
-        }
-        if (movement.y > 0 || movement.y < 0)
-        {
-            player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * GameManager.Instance.speed * Time.deltaTime, 0f).normalized);
-        }
+        player.transform.Translate( movement.normalized * GameManager.Instance.speed * Time.deltaTime );
+        //if (movement.x > 0 || movement.x < 0)
+        //{
+            
+        //}
+        //if (movement.y > 0 || movement.y < 0)
+        //{
+        //    player.transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * GameManager.Instance.speed * Time.deltaTime, 0f).normalized);
+        //}
         if (movement.y > 0) z = 0f;
         else z = -0.9f;
         if (movement.x > 0) x = 0.1f;
@@ -125,6 +126,7 @@ public class Player : MonoBehaviour
     {
         if (col.CompareTag("Enemy")&&!ishit)
         {
+            ishit = true;
             en = col.gameObject.GetComponent<Enemy>();
             StartCoroutine(hit());
         }
@@ -134,12 +136,13 @@ public class Player : MonoBehaviour
     public IEnumerator hit()
     {
         hitSound.Play();
-        ishit = true;
         Color myColor = myImg.color;
         if(en == null)
         {
             GameManager.Instance.whokill = 2;
-            GameManager.Instance.nowHp -= (GameManager.Instance.satge * 30);
+            GameManager.Instance.maxHp -= GameManager.Instance.maxHp/10;
+            GameManager.Instance.nowHp -= (GameManager.Instance.satge * 10);
+
         }
         else
         {
@@ -161,7 +164,7 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("GameOver");
 
         }
-        Camera.main.DOShakePosition(3);
+        Camera.main.DOShakePosition(3,0.2f);
         yield return new WaitForSeconds(0.2f);
         hitRed.alpha = 0;
         for (int i = 0; i < 5; i++)

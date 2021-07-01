@@ -146,26 +146,26 @@ public class Setting : MonoBehaviour
         }
         reportTex[0].text = whatTex.text;
         string t = whatTex.text;
-        if (whatTex.text.Contains("/DmgUp"))
+        if (whatTex.text.Contains("/Dmg"))
         {
-            t = t.Replace("/DmgUp", "");
+            t = t.Replace("/Dmg", "");
             whatTex.text = t;
-            GameManager.Instance.atkDmg += int.Parse(t);
+            GameManager.Instance.atkDmg = int.Parse(t);
             whatTex.text = "적용되었습니다.";
             Debug.Log("공격력증가");
         }
-        else if (whatTex.text.Contains("/SpeedUp"))
+        else if (whatTex.text.Contains("/Speed"))
         {
-            t = t.Replace("/SpeedUp", "");
-            GameManager.Instance.speed += float.Parse(t);
+            t = t.Replace("/Speed", "");
+            GameManager.Instance.speed = float.Parse(t);
             whatTex.text = "적용되었습니다.";
             Debug.Log("이속증가");
 
         }
-        else if (whatTex.text.Contains("/MaxHpUp"))
+        else if (whatTex.text.Contains("/MaxHp"))
         {
-            t = t.Replace("/MaxHpUp", "");
-            GameManager.Instance.maxHp += int.Parse(t);
+            t = t.Replace("/MaxHp", "");
+            GameManager.Instance.maxHp = int.Parse(t);
             whatTex.text = "적용되었습니다.";
             Debug.Log("최대 체력증가");
         }

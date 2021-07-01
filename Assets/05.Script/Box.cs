@@ -72,13 +72,13 @@ public class Box : MonoBehaviour
                 switch (whatStat)
                 {
                     case 1:
-                        GameManager.Instance.atkDmg += (int)addStat * 5;
+                        GameManager.Instance.atkDmg += (int)addStat * 3;
                         TS.Text($"공격력 {addStat*5}만큼 증가!");
                         PlaySound(DmgUpSound);
                         player.WhatParticle(1);
                         break;
                     case 2:
-                        if(GameManager.Instance.atkSpeed < 15)
+                        if(GameManager.Instance.speed < 15)
                         {
                             GameManager.Instance.speed += addStat / 20;
                             TS.Text($"이동 속도 {(addStat / 10).ToString("0.00")}만큼 빨라졌다!");
@@ -110,7 +110,6 @@ public class Box : MonoBehaviour
                 //else
                 //    TS.Text($"오 상자에서 {wapon}번째 무기가 나왔습니다! 개꿀");
                 sword.sprite = GameManager.Instance.swordList[wapon];
-                GameManager.Instance.nowHp += GameManager.Instance.maxHp/10;
             }
             isopen = true;
             Destroy(gameObject,1.4f);

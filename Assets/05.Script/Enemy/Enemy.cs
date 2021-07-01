@@ -45,8 +45,8 @@ public class Enemy : MonoBehaviour
         hpBar = Instantiate(prfHpBar, canvas.transform).GetComponent<RectTransform>();
         nowHpbar = hpBar.transform.GetChild(0).GetComponent<Image>();
         attacked = true;
-        atkDmg += GameManager.Instance.satge*30;
-        maxHp += GameManager.Instance.satge*50;
+        atkDmg += GameManager.Instance.satge*50;
+        maxHp += GameManager.Instance.satge*100;
         nowHp = maxHp;
         atkSpeed += GameManager.Instance.satge;
     }
